@@ -1,0 +1,32 @@
+name: Deploy to cPanel
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: setup node.js env
+        uses: actions/setup-node@v4.0.2
+        with:
+          node-version: 20.10
+
+      - name: Run a multi-line script
+        run: |
+          npm install
+          npm run build
+
+      - name: FTP Deployer
+        uses: sand4rt/ftp-deployer@v1.8
+        with:
+          host: ${{secrets.FTP_SERVER}}
+          username: ${{secrets.FTP_USERNAME}}
+          password: ${{secrets.FTP_PASSWORD}}
+          port: ${{secrets.FTP_PORT}}
+          local_folder: out
+      

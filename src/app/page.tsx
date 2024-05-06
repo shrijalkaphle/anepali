@@ -12,7 +12,7 @@ export default function Home() {
 
       <div className="container">
         <div className="w-full bg-neutral-100 px-4 py-5 rounded-xl mt-4">
-          <input type="text" placeholder="Preview text here" className={`bg-transparent outline-none placeholder:text-neutral-600`} value={previewText} onChange={(e) => setPreviewText(e.currentTarget.value)}/>
+          <input type="text" placeholder="Preview text here" className={`bg-transparent outline-none placeholder:text-neutral-600 w-full`} value={previewText} onChange={(e) => setPreviewText(e.currentTarget.value)}/>
         </div>
         <div>
           {

@@ -3,7 +3,11 @@
 import { useState } from "react";
 import { FaDownload } from "react-icons/fa6";
 
-export const FontList = () => {
+export interface IFontList {
+    previewText: string
+}
+
+export const FontList = ({ previewText }: IFontList) => {
     const [isHover, setIsHover] = useState<boolean>(false);
     return (
         <div className="w-full p-4 border-b border-neutral-200 hover:bg-neutral-50" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
@@ -26,7 +30,11 @@ export const FontList = () => {
 
             {/* font preview */}
             <div className="mt-2">
-                <span className="font-medium text-[40px] leading-[56px]">काठमाडौंको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।</span>
+                <span className="font-medium text-[40px] leading-[56px]">
+                    {
+                        previewText ? previewText : "काठमाडौंको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।"
+                    }
+                </span>
             </div>
         </div>
     )

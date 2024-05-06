@@ -1,0 +1,33 @@
+"use client";
+
+import { useState } from "react";
+import { FaDownload } from "react-icons/fa6";
+
+export const FontList = () => {
+    const [isHover, setIsHover] = useState<boolean>(false);
+    return (
+        <div className="w-full p-4 border-b border-neutral-200 hover:bg-neutral-50" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
+
+            {/* font details */}
+            <div className="flex justify-between items-center">
+                <div className="flex items-center gap-x-2">
+                    <span className="font-semibold">Noto Sans</span>
+                    <span className="dot"> &middot; </span>
+                    <span className="text-sm">9 styles</span>
+                    <span className="dot"> &middot; </span>
+                    <span className="text-sm">Google</span>
+                </div>
+
+                <button className={`bg-gradient-to-b from-[#FF4565] to-[#D11233] text-white px-3 py-1.5 rounded-lg items-center gap-x-1.5 flex ${isHover ? 'opacity-100': 'opacity-0'}`}>
+                    <FaDownload />
+                    <span className="font-medium text-sm">Get Font</span>
+                </button>
+            </div>
+
+            {/* font preview */}
+            <div className="mt-2">
+                <span className="font-medium text-[40px] leading-[56px]">काठमाडौंको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।</span>
+            </div>
+        </div>
+    )
+}

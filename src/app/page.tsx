@@ -36,7 +36,7 @@ export default function Home() {
     <>
       <Navbar filterText={filterText} filterTextChange={filterTextChange} />
 
-      <div className="container mt-[100px]">
+      <div className="container lg:mt-[116px] mt-[140px]">
         <div className="w-full bg-neutral-100 px-4 py-5 rounded-xl">
           <input type="text" placeholder="Preview text here" className={`bg-transparent outline-none placeholder:text-neutral-600 w-full`} value={originalText} onChange={previewTextChange} />
           <span className="text-sm font-bold">{previewText}</span>

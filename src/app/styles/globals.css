@@ -2,22 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .container {
+    @apply xl:max-w-[1200px] lg:max-w-[1000px] lg:mx-5 mx-4 xl:mx-auto w-auto;
+  }
+  
+  .text-preview {
+    @apply font-medium xl:text-[40px] xl:leading-[56px] text-[22px] leading-8 lg:text-4xl lg:leading-[48px];
+  }
+
+  body {
+    @apply text-neutral-900;
   }
 }

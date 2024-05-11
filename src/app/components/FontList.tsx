@@ -22,23 +22,23 @@ export const FontList = ({ previewText, font }: IFontList) => {
 
                 {/* font details */}
                 <div className="flex justify-between items-center">
-                    <div className="flex items-center gap-x-2">
-                        <span className="font-semibold">{name}</span>
+                    <div className="flex items-center gap-x-2  w-2/3">
+                        <span className="font-semibold whitespace-nowrap">{name}</span>
                         <span className="dot"> &middot; </span>
-                        <span className="text-sm">{styles} styles</span>
+                        <span className="text-sm whitespace-nowrap">{styles} styles</span>
                         <span className="dot"> &middot; </span>
-                        <span className="text-sm">{designer}</span>
+                        <span className="text-sm truncate">{designer}</span>
                     </div>
 
-                    <button className={`bg-white border border-neutral-200 text-neutral-800 px-3 py-1.5 rounded-lg items-center gap-x-2 flex`} onClick={downloadFont}>
+                    <button className="bg-white border border-neutral-200 text-neutral-800 px-3 py-1.5 rounded-lg items-center gap-x-2 flex text-sm w-[106px]" onClick={downloadFont}>
                         <FaDownload />
-                        <span className="font-medium text-sm">Get Font</span>
+                        <span className="font-medium">Get Font</span>
                     </button>
                 </div>
 
                 {/* font preview */}
-                <div className="mt-2">
-                    <span className={`font-medium text-[40px] leading-[56px] ${fontClass}`}>
+                <div className="mt-2 truncate">
+                    <span className={`text-preview ${fontClass}`}>
                         {
                             (previewText && previewText != " ") ? previewText : "काठमाडौंको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।"
                         }

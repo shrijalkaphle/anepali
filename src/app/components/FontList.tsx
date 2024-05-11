@@ -11,13 +11,15 @@ export interface IFontList {
 
 export const FontList = ({ previewText, font }: IFontList) => {
     const { name, styles, designer, fontClass, path } = font
-    const [isHover, setIsHover] = useState<boolean>(false);
     const downloadFont = () => {
-        alert("Hello! Welcome to my channel")
+        const downloadLink = document.createElement("a");
+        downloadLink.href = './fonts/' + path;
+        downloadLink.setAttribute("download", path);
+        downloadLink.click();
     }
     return (
         <>
-            <div className="w-full p-4 border-b border-neutral-200 hover:bg-neutral-50" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
+            <div className="w-full p-4 border-b border-neutral-200 hover:bg-neutral-50">
 
                 {/* font details */}
                 <div className="flex justify-between items-center">
@@ -29,7 +31,7 @@ export const FontList = ({ previewText, font }: IFontList) => {
                         <span className="text-sm">{designer}</span>
                     </div>
 
-                    <button className={`bg-gradient-to-b from-[#FF4565] to-[#D11233] text-white px-3 py-1.5 rounded-lg items-center gap-x-1.5 flex ${isHover ? 'opacity-100' : 'opacity-0'}`} onClick={downloadFont}>
+                    <button className={`bg-white border border-neutral-200 text-neutral-800 px-3 py-1.5 rounded-lg items-center gap-x-2 flex`} onClick={downloadFont}>
                         <FaDownload />
                         <span className="font-medium text-sm">Get Font</span>
                     </button>

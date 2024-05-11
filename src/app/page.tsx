@@ -9,7 +9,22 @@ import { IFont } from "./types/main";
 export default function Home() {
   const [previewText, setPreviewText] = useState<string>("");
   const [originalText, setOriginalText] = useState<string>("");
-  const loop = [1, 2, 3, 4, 5, 6, 7, 8]
+  const [filterText, setFilterText] = useState<string>("");
+
+  const [fonts, setFonts] = useState<IFont[]>(fontData);
+
+  const filterTextChange = (e: any) => {
+    const value = e.target.value
+    setFilterText(value);
+
+    if (!value) { setFonts(fontData) } else {
+      // filter fontData
+      const filteredFont = fontData.filter((font) => {
+        return font.name.toLowerCase().includes(filterText.toLowerCase());
+      })
+      setFonts(filteredFont);
+    }
+  }
 
   const previewTextChange = (e: any) => {
     setOriginalText(e.target.value);
@@ -18,19 +33,17 @@ export default function Home() {
   }
   return (
     <>
-      <Navbar />
+      <Navbar filterText={filterText} filterTextChange={filterTextChange} />
 
-      <div className="container">
-        <div className="w-full bg-neutral-100 px-4 py-5 rounded-xl mt-4">
-          <input type="text" placeholder="Preview text here" className={`bg-transparent outline-none placeholder:text-neutral-600 w-full`} value={originalText} onChange={previewTextChange}/>
+      <div className="container mt-[100px]">
+        <div className="w-full bg-neutral-100 px-4 py-5 rounded-xl">
+          <input type="text" placeholder="Preview text here" className={`bg-transparent outline-none placeholder:text-neutral-600 w-full`} value={originalText} onChange={previewTextChange} />
           <span className="text-sm font-bold">{previewText}</span>
         </div>
-        
-        {/* {nepaliscript(previewText)} */}
-        <div>
+        <div className="mt-6">
           {
-            fontData.map((font, index) => (
-              <FontList key={index} font={font} previewText={previewText}/>
+            fonts.map((font, index) => (
+              <FontList key={index} font={font} previewText={previewText} />
             ))
           }
         </div>

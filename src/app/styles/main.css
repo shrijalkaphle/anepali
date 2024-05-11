@@ -1,2 +1,6 @@
 @import url('./globals.css');
 @import url('./font.css');
+
+.is-sticky {
+    @apply fixed inset-x-0 top-0 z-50 bg-black
+}

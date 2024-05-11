@@ -1,8 +1,233 @@
-@font-face {
-    font-family: 'Noto Sans Devanagari';
-    src: url('./fonts/NotoSansDevanagari.ttf') format('truetype');
+@import url('./fonts/font-face.css');
+
+.font-akshar {
+    font-family: 'Akshar', sans-serif;
+}
+
+.font-alkatra {
+    font-family: 'Alkatra', sans-serif;
+}
+
+.font-amiko {
+    font-family: 'Amiko', sans-serif;
+}
+
+.font-amita {
+    font-family: 'Amita', sans-serif;
+}
+
+.font-anek-devanagari {
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.font-annapurna-sil {
+    font-family: 'Annapurna SIL', sans-serif;
+}
+
+.font-arya {
+    font-family: 'Arya', sans-serif;
+}
+
+.font-asar {
+    font-family: 'Asar', sans-serif;
+}
+
+.font-bakbak-one {
+    font-family: 'Bakbak One', sans-serif;
+}
+
+.font-baloo-2 {
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.font-biryani {
+    font-family: 'Biryani', sans-serif;
+}
+
+.font-cambay {
+    font-family: 'Cambay', sans-serif;
+}
+
+.font-dekko {
+    font-family: 'Dekko', sans-serif;
+}
+
+.font-eczar {
+    font-family: 'Eczar', sans-serif;
+}
+
+.font-gajraj-one {
+    font-family: 'Gajraj One', sans-serif;
+}
+
+.font-glegoo {
+    font-family: 'Glegoo', sans-serif;
+}
+
+.font-gotu {
+    font-family: 'Gotu', sans-serif;
+}
+
+.font-halant {
+    font-family: 'Halant', sans-serif;
+}
+
+.font-hind {
+    font-family: 'Hind', sans-serif;
+}
+
+.font-ibm-plex-sans-devnagari {
+    font-family: 'IBM Plex Sans Devnagari', sans-serif;
+}
+
+.font-inknut-antiqua {
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.font-jaini {
+    font-family: 'Jaini', sans-serif;
+}
+
+.font-jaini-purva {
+    font-family: 'Jaini Purva', sans-serif;
+}
+
+.font-jaldi {
+    font-family: 'Jaldi', sans-serif;
+}
+
+.font-kadwa {
+    font-family: 'Kadwa', sans-serif;
+}
+
+.font-kalam {
+    font-family: 'Kalam', sans-serif;
+}
+
+.font-karma {
+    font-family: 'Karma', sans-serif;
+}
+
+.font-khand {
+    font-family: 'Khand', sans-serif;
+}
+
+.font-khula {
+    font-family: 'Khula', sans-serif;
+}
+
+.font-kurale {
+    font-family: 'Kurale', sans-serif;
+}
+
+.font-laila {
+    font-family: 'Laila', sans-serif;
+}
+
+.font-martel {
+    font-family: 'Martel', sans-serif;
+}
+
+.font-martel-sans {
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.font-modak {
+    font-family: 'Modak', sans-serif;
+}
+
+.font-mukta {
+    font-family: 'Mukta', sans-serif;
+}
+
+.font-noto-sans {
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .font-noto-sans-devanagari {
     font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.font-noto-serif-devanagari {
+    font-family: 'Noto Serif Devanagari', sans-serif;
+}
+
+.font-palanquin {
+    font-family: 'Palanquin', sans-serif;
+}
+
+.font-palanquin-dark {
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.font-pragati-narrow {
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+.font-rajdhani {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.font-ranga {
+    font-family: 'Ranga', sans-serif;
+}
+
+.font-rhodium-libre {
+    font-family: 'Rhodium Libre', sans-serif;
+}
+
+.font-rozha-one {
+    font-family: 'Rozha One', sans-serif;
+}
+
+.font-sahitya {
+    font-family: 'Sahitya', sans-serif;
+}
+
+.font-sarala {
+    font-family: 'Sarala', sans-serif;
+}
+
+.font-sarpanch {
+    font-family: 'Sarpanch', sans-serif;
+}
+
+.font-sumana {
+    font-family: 'Sumana', sans-serif;
+}
+
+.font-sura {
+    font-family: 'Sura', sans-serif;
+}
+
+.font-teko {
+    font-family: 'Teko', sans-serif;
+}
+
+.font-tiliana {
+    font-family: 'Tiliana', sans-serif;
+}
+
+.font-tiro-devanagari-hindi {
+    font-family: 'Tiro Devanagari Hindi', sans-serif;
+}
+
+.font-tiro-devanagari-marathi {
+    font-family: 'Tiro Devanagari Marathi', sans-serif;
+}
+
+.font-tiro-devanagari-sanskrit {
+    font-family: 'Tiro Devanagari Sanskrit', sans-serif;
+}
+
+.font-vesper-libre {
+    font-family: 'Vesper Libre', sans-serif;
+}
+
+.font-yantramanav {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.font-yatra-one {
+    font-family: 'Yatra One', sans-serif;
 }

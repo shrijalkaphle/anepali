@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Akshar';
+    src: url('Akshar.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alkatra';
+    src: url('Alkatra.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Amiko';
+    src: url('Amiko.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Amita';
+    src: url('Amita.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Anek Devanagari';
+    src: url('AnekDevanagari.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Annapurna SIL';
+    src: url('AnnapurnaSIL.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Arya';
+    src: url('Arya.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Asar';
+    src: url('Asar.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bakbak One';
+    src: url('BakbakOne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('Baloo2.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Biryani';
+    src: url('Biryani.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cambay';
+    src: url('Cambay.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Dekko';
+    src: url('Dekko.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Eczar';
+    src: url('Eczar.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gajraj One';
+    src: url('GajrajOne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Glegoo';
+    src: url('Glegoo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotu';
+    src: url('Gotu.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Halant';
+    src: url('Halant.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: url('Hind.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans Devnagari';
+    src: url('IBMPlexSansDevanagari.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inknut Antiqua';
+    src: url('InknutAntiqua.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Jaini';
+    src: url('Jaini.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Jaini Purva';
+    src: url('JainiPurva.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Jaldi';
+    src: url('Jaldi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kadwa';
+    src: url('Kadwa.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('Kalam.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Karma';
+    src: url('Karma.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Khand';
+    src: url('Khand.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Khula';
+    src: url('Khula.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kurale';
+    src: url('Kurale.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Laila';
+    src: url('Laila.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Martel';
+    src: url('Martel.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Martel Sans';
+    src: url('MartelSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Modak';
+    src: url('Modak.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mukta';
+    src: url('Mukta.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('NotoSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Devanagari';
+    src: url('NotoSansDevanagari.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Serif Devanagari';
+    src: url('NotoSerifDevanagari.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Palanquin';
+    src: url('Palanquin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Palanquin Dark';
+    src: url('PalanquinDark.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pragati Narrow';
+    src: url('PragatiNarrow.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('Rajdhani.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ranga';
+    src: url('Ranga.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rhodium Libre';
+    src: url('RhodiumLibre.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rozha One';
+    src: url('RozhaOne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sahitya';
+    src: url('Sahitya.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sarala';
+    src: url('Sarala.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sarpanch';
+    src: url('Sarpanch.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sumana';
+    src: url('Sumana.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sura';
+    src: url('Sura.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Teko';
+    src: url('Teko.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tiliana';
+    src: url('Tillana.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tiro Devanagari Hindi';
+    src: url('TiroDevanagariHindi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tiro Devanagari Marathi';
+    src: url('TiroDevanagariMarathi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tiro Devanagari Sanskrit';
+    src: url('TiroDevanagariSanskrit.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Vesper Libre';
+    src: url('VesperLibre.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Yantramanav';
+    src: url('Yantramanav.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Yatra One';
+    src: url('YatraOne.ttf') format('truetype');
+}

@@ -10,7 +10,7 @@ export interface IFontList {
 }
 
 export const FontList = ({ previewText, font }: IFontList) => {
-    const { name, styles, designer } = font
+    const { name, styles, designer, fontClass, path } = font
     const [isHover, setIsHover] = useState<boolean>(false);
     const downloadFont = () => {
         alert("Hello! Welcome to my channel")
@@ -37,7 +37,7 @@ export const FontList = ({ previewText, font }: IFontList) => {
 
                 {/* font preview */}
                 <div className="mt-2">
-                    <span className="font-medium text-[40px] leading-[56px]">
+                    <span className={`font-medium text-[40px] leading-[56px] ${fontClass}`}>
                         {
                             previewText ? previewText : "काठमाडौंको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।"
                         }

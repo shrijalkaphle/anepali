@@ -2,30 +2,14 @@
 import { Navbar } from "./components/Navbar";
 import { FontList } from "./components/FontList";
 import { useState } from "react";
-import { IFont } from "./types/main";
 import translate from "./utils/devnagari";
+import { fontData } from "./data";
+import { IFont } from "./types/main";
 
 export default function Home() {
   const [previewText, setPreviewText] = useState<string>("");
   const [originalText, setOriginalText] = useState<string>("");
   const loop = [1, 2, 3, 4, 5, 6, 7, 8]
-
-  const fonts: IFont[] = [
-    {
-      name: "Noto Sans Devanagari",
-      styles: 2,
-      designer: "Google",
-      fontLink: '',
-      downloadLink: ''
-    },
-    {
-      name: "Tiro Devanagari Sanskrit",
-      styles: 2,
-      designer: "Tiro Typeworks, John Hudson, Fiona Ross, Paul Hanslow",
-      fontLink: '',
-      downloadLink: ''
-    }
-  ]
 
   const previewTextChange = (e: any) => {
     setOriginalText(e.target.value);
@@ -45,7 +29,7 @@ export default function Home() {
         {/* {nepaliscript(previewText)} */}
         <div>
           {
-            fonts.map((font, index) => (
+            fontData.map((font, index) => (
               <FontList key={index} font={font} previewText={previewText}/>
             ))
           }

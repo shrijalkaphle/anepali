@@ -30,6 +30,7 @@ export default function Home() {
     setOriginalText(e.target.value);
     var unicode = translate(e.target.value);
     setPreviewText(unicode);
+    console.log(previewText);
   }
   return (
     <>

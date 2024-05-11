@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { FaDownload } from "react-icons/fa6";
 import { IFont } from "../types/main";
 
@@ -41,7 +40,7 @@ export const FontList = ({ previewText, font }: IFontList) => {
                 <div className="mt-2">
                     <span className={`font-medium text-[40px] leading-[56px] ${fontClass}`}>
                         {
-                            previewText ? previewText : "काठमाडौंको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।"
+                            (previewText && previewText != " ") ? previewText : "काठमाडौंको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।"
                         }
                     </span>
                 </div>

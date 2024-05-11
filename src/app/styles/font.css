@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Noto Sans Devanagari';
+    src: url('./fonts/NotoSansDevanagari.ttf') format('truetype');
+}
+
+.font-noto-sans-devanagari {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+}

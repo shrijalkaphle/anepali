@@ -42,9 +42,9 @@ export const FontList = ({ previewText, font }: IFontList) => {
                     <div className="flex items-center gap-x-2  w-2/3">
                         <span className="font-semibold whitespace-nowrap">{name}</span>
                         <span className="dot"> &middot; </span>
-                        <span className="text-sm whitespace-nowrap">{styles} styles</span>
+                        <span className="text-sm whitespace-nowrap text-neutral-800">{styles} styles</span>
                         <span className="dot"> &middot; </span>
-                        <span className="text-sm truncate">{designer}</span>
+                        <span className="text-sm whitespace-nowrap truncate text-neutral-800">{designer}</span>
                     </div>
 
                     <button className="bg-white border border-neutral-200 text-neutral-800 px-3 py-1.5 rounded-lg items-center gap-x-2 flex text-sm w-[108px] hover:border-neutral-400" onClick={downloadFont}>

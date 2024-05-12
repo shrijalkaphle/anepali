@@ -79,7 +79,7 @@ export default function Home() {
                 </defs>
               </svg>
             </button>
-            <input type="text" placeholder="Type preview text here or click on the mic icon to use audio typing..." className={`bg-transparent outline-none placeholder:text-neutral-500 w-full`} value={previewText} onChange={previewTextChange} />
+            <input type="text" placeholder={`${isListening ? "Listening..." : "Type preview text here or click on the mic icon to use audio typing..."}`} className={`bg-transparent outline-none placeholder:text-neutral-500 w-full`} value={previewText} onChange={previewTextChange} />
           </div>
         </div>
         <div className="mt-6">

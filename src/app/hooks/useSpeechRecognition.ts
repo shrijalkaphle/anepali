@@ -1,10 +1,14 @@
+'use client';
+
 import { useEffect, useState } from "react";
 
 let recongnition: any;
-if("webkitSpeechRecognition" in window) {
-    recongnition = new webkitSpeechRecognition();
-    recongnition.continuous = true;
-    recongnition.lang = 'ne';
+if(typeof window !== "undefined") {
+    if("webkitSpeechRecognition" in window) {
+        recongnition = new webkitSpeechRecognition();
+        recongnition.continuous = true;
+        recongnition.lang = 'ne';
+    }
 }
 
 export const useSpeechRecognition = () => {

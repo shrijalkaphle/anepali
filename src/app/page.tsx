@@ -10,7 +10,7 @@ import { useSpeechRecognition } from "./hooks/useSpeechRecognition";
 export default function Home() {
 
   // hhook
-  const {text, isListening, startListening, stopListening, hasRecongnitionSupport} = useSpeechRecognition();
+  const {text, isListening, startListening, hasRecongnitionSupport} = useSpeechRecognition();
 
   const [previewText, setPreviewText] = useState<string>("");
   const [filterText, setFilterText] = useState<string>("");

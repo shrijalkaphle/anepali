@@ -12,7 +12,7 @@
   }
   
   .text-preview {
-    @apply font-medium xl:text-[40px] xl:leading-[56px] text-[22px] leading-8 lg:text-4xl lg:leading-[48px];
+    @apply font-medium xl:text-[40px] xl:leading-[60px] text-[22px] leading-9 lg:text-4xl lg:leading-[54px];
   }
 
   body {

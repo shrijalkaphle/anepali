@@ -10,8 +10,9 @@ import { useSpeechRecognition } from "./hooks/useSpeechRecognition";
 export default function Home() {
 
   // hhook
-  const {text, isListening, startListening, hasRecongnitionSupport} = useSpeechRecognition();
+  const { text, isListening, startListening, hasRecongnitionSupport } = useSpeechRecognition();
 
+  const [originalText, setOriginalText] = useState<string>("");
   const [previewText, setPreviewText] = useState<string>("");
   const [filterText, setFilterText] = useState<string>("");
 
@@ -29,35 +30,35 @@ export default function Home() {
       setFonts(filteredFont);
     }
   }
-  
+
   useEffect(() => {
     setPreviewText(text);
   }, [text])
   const previewTextChange = (e: any) => {
     const text = e.target.value
-    if(e.nativeEvent.data == " " || e.code == "Space" || e.keyCode == 32 ) {
-      // split text by space and take last word
-      const textArray = text.split(" ").filter((el: string) => el !== "");
-      var unicode = translate(textArray[textArray.length - 1]);
-      console.log(textArray)
-      // replace last word with unicode
-      textArray[textArray.length - 1] = unicode
-      const unicodedText = textArray.join(" ")
-      setPreviewText(unicodedText);
-    } else {
-      setPreviewText(text);
-    }
-
-    
-    
+    setOriginalText(text);
+    var unicode = translate(text);
+    setPreviewText(unicode);
+    // if(e.nativeEvent.data == " " || e.code == "Space" || e.keyCode == 32 ) {
+    //   // split text by space and take last word
+    //   const textArray = text.split(" ").filter((el: string) => el !== "");
+    //   var unicode = translate(textArray[textArray.length - 1]);
+    //   console.log(textArray)
+    //   // replace last word with unicode
+    //   textArray[textArray.length - 1] = unicode
+    //   const unicodedText = textArray.join(" ")
+    //   setPreviewText(unicodedText);
+    // } else {
+    //   setPreviewText(text);
+    // }
   }
 
   const enableVoiceInput = () => {
-    if(!hasRecongnitionSupport) {
+    if (!hasRecongnitionSupport) {
       alert('Your browser has no Voice Recognition Support')
       return
     }
-    if(!isListening) startListening()
+    if (!isListening) startListening()
   }
 
   return (
@@ -79,7 +80,10 @@ export default function Home() {
                 </defs>
               </svg>
             </button>
-            <input type="text" placeholder={`${isListening ? "Listening..." : "Type preview text here or click on the mic icon to use audio typing..."}`} className={`bg-transparent outline-none placeholder:text-neutral-500 w-full`} value={previewText} onChange={previewTextChange} />
+            <div className="w-full">
+              <input type="text" placeholder={`${isListening ? "Listening..." : "Type preview text here or click on the mic icon to use audio typing..."}`} className={`bg-transparent outline-none placeholder:text-neutral-500 w-full`} value={originalText} onChange={previewTextChange} />
+              <span>{previewText}</span>
+            </div>
           </div>
         </div>
         <div className="mt-6">

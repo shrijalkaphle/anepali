@@ -59,7 +59,7 @@ export const FontList = ({ previewText, font, fontSize }: IFontList) => {
 
                 {/* font preview */}
                 <div className="mt-2 truncate">
-                    <span className={`text-preview ${fontClass}`} style={{ fontSize: `${fontSize}px` }}>
+                    <span className={`text-preview ${fontClass}`} style={{ fontSize: `${fontSize}px`, lineHeight: `${fontSize*1.5}px` }}>
                         {
                             (previewText && previewText != " ") ? previewText : "काठमाडौंको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।"
                         }

@@ -6,7 +6,7 @@ export const Footer = () => {
                     Ad Space
                 </div>
                 <div className="mt-10 rounded-lg bg-neutral-50 p-4">
-                    The fonts presented on this website are their authors' property, and are either freeware, shareware, demo versions or public domain. Please look at the readme-files in the archives or check the indicated author's website for details, and contact him/her if in doubt. If no author/license is indicated that's because we don't have information, that doesn't mean it's free.
+                    The fonts presented on this website are their authors&#39; property, and are either freeware, shareware, demo versions or public domain. Please look at the readme-files in the archives or check the indicated author&#39;s website for details, and contact him/her if in doubt. If no author/license is indicated that&#39;s because we don&#39;t have information, that doesn&#39;t mean it&#39;s free.
                 </div>
             </div>
             <hr />

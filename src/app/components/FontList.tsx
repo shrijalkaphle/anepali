@@ -5,9 +5,10 @@ import { IFont } from "../types/main";
 export interface IFontList {
     previewText: string,
     font: IFont
+    fontSize: number
 }
 
-export const FontList = ({ previewText, font }: IFontList) => {
+export const FontList = ({ previewText, font, fontSize }: IFontList) => {
     const { name, styles, designer, fontClass, path } = font
     const downloadFont = () => {
         const downloadLink = document.createElement("a");
@@ -58,7 +59,7 @@ export const FontList = ({ previewText, font }: IFontList) => {
 
                 {/* font preview */}
                 <div className="mt-2 truncate">
-                    <span className={`text-preview ${fontClass}`}>
+                    <span className={`text-preview ${fontClass}`} style={{ fontSize: `${fontSize}px` }}>
                         {
                             (previewText && previewText != " ") ? previewText : "काठमाडौंको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।"
                         }

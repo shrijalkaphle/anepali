@@ -6,8 +6,8 @@ export const FontWeightDropdown = ({dropdownValue, value, setValue} : IDropDown)
     const [showDropdown, setShowDropdown] = useState<boolean>(false)
 
     const updateSelectedValue = (value: string) => {
-        setShowDropdown(false)
         setValue(value)
+        setShowDropdown(false)
     }
 
     return (
@@ -24,11 +24,11 @@ export const FontWeightDropdown = ({dropdownValue, value, setValue} : IDropDown)
                 </div>
             </div>
             <div className={`fixed top-0 left-0 right-0 bottom-0 z-10 ${showDropdown ? " " : "hidden"}`} onClick={() => setShowDropdown(false)}></div>
-            <div className={`absolute rounded-b-lg border border-neutral-200 bg-white shadow-[0_2px_8px_0_rgba(0, 0, 0, 0.08)] right-[-14px] w-[204px] top-[30px] z-50 ${showDropdown ? " " : "hidden"}`}>
+            <div className={`absolute rounded-b-lg border border-neutral-200 bg-white shadow-[0_2px_8px_0_rgba(0, 0, 0, 0.08)] right-[-12px] w-[204px] top-[26px] z-50 ${showDropdown ? " " : "hidden"}`}>
                 <div className="px-2.5 py-2 font-medium text-neutral-600 text-sm">Minimum no. of weights</div>
                 <div className="grid grid-cols-5 gap-1.5 p-2.5">
                     {
-                        dropdownValue.map((_value: string) => <div className={`h-8 w-8 hover:bg-neutral-50 cursor-pointer border border-neutral-200 rounded-lg flex items-center justify-center ${_value === value ? "bg-neutral-50" : ""}`} key={_value} onClick={() => updateSelectedValue(_value)}>{_value}</div>)
+                        dropdownValue.map((_value: string) => <div className={`h-8 w-8 hover:bg-neutral-50 cursor-pointer border border-neutral-200 rounded-lg flex items-center justify-center text-sm ${_value === value ? "bg-neutral-50" : ""}`} key={_value} onClick={() => updateSelectedValue(_value)}>{_value}</div>)
                     }
                 </div>
             </div>

@@ -24,10 +24,10 @@ export const Dropdown = ({dropdownValue, value, setValue} : IDropDown) => {
                 </div>
             </div>
             <div className={`fixed top-0 left-0 right-0 bottom-0 z-10 ${showDropdown ? " " : "hidden"}`} onClick={() => setShowDropdown(false)}></div>
-            <div className={`absolute rounded-b-lg border border-neutral-200 bg-white shadow-[0_2px_8px_0_rgba(0, 0, 0, 0.08)] left-[-14px] w-[100px] top-[30px] z-50 ${showDropdown ? " " : "hidden"}`}>
+            <div className={`absolute rounded-b-lg border border-neutral-200 bg-white shadow-[0_2px_8px_0_rgba(0, 0, 0, 0.08)] left-[-13px] w-[100px] top-[26px] z-50 ${showDropdown ? " " : "hidden"}`}>
                 <ul>
                     {
-                        dropdownValue.map((value: string) => <li className="py-2 px-2.5 hover:bg-neutral-50 cursor-pointer capitalize" key={value} onClick={() => updateSelectedValue(value)}>{value}</li>)
+                        dropdownValue.map((_value: string) => <li className={`py-2 px-2.5 hover:bg-neutral-50 cursor-pointer capitalize text-sm ${_value === value ? "bg-neutral-50" : ""}`} key={_value} onClick={() => updateSelectedValue(_value)}>{_value}</li>)
                     }
                 </ul>
             </div>

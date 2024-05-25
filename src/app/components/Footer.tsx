@@ -19,7 +19,7 @@ export const Footer = () => {
                     <ul>
                         <li className="font-semibold">aNepali Services</li>
                         <li className="my-3 text-neutral-800">Nepali Typography</li>
-                        <li className="my-3 text-neutral-600 flex items-center gap-x-2">
+                        {/* <li className="my-3 text-neutral-600 flex items-center gap-x-2">
                             Nepali Typing Practice
                             <div className="rounded-full py-1 px-2 border border-neutral-200 flex items-center gap-x-1.5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
@@ -45,7 +45,7 @@ export const Footer = () => {
                                 </svg>
                                 <span>Comming Soon</span>
                             </div>
-                        </li>
+                        </li> */}
                     </ul>
                     <ul>
                         <li className="font-semibold">aNepali</li>

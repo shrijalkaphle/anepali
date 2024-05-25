@@ -43,9 +43,7 @@ export default function Home() {
   useEffect(() => {
     window.innerWidth >= 1280 ? setFontSize(40) : (window.innerWidth >= 1024 ? setFontSize(36) : setFontSize(22))
     setPreviewText(text);
-    setTimeout(() => {
-      setPageLoading(false)
-    }, 2000)
+    setPageLoading(false)
   }, [text])
 
   const previewTextChange = (e: any) => {
@@ -82,7 +80,18 @@ export default function Home() {
     <>
       <Navbar fontSearch={fontSearchText} fontSearchChange={filterSearchChange} />
 
-      <div className="container lg:mt-[116px] mt-[140px]">
+      {/* beta release info */}
+      <div className="container mt-[140px]">
+        <div className="px-2 py-1 text-neutral-800 font-semibold border border-neutral-200 rounded-lg w-fit">Beta Release</div>
+        <div className="mt-4">
+          <span className="font-semibold text-[40px] leading-[48px]">Explore and Download Nepali Fonts</span>
+          <p className="mt-5 text-neutral-600 w-[455px]">
+            Search and download the best Nepali fonts for your next project. We’re working to bring you all the font selections for Nepali Language.
+          </p>
+        </div>
+      </div>
+
+      <div className="container lg:mt-[116px] mt-[40px]">
         <FilterComponent
           enableVoiceInput={enableVoiceInput}
           isListening={isListening}

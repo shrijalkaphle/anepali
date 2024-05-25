@@ -38,7 +38,7 @@ export const FilterComponent = ({ enableVoiceInput, isListening, previewText, or
                 </div>
             </div>
             <div className="border-t border-b border-r border-neutral-200 p-3 h-16">
-                <span className="block text-[13px] text-neutral-600">Font Size</span>
+                <span className="block text-[13px] text-neutral-600 mb-1">Font Size</span>
                 <div className="flex items-center gap-x-1">
                     {/* <select name="" id="">
                         o
@@ -48,11 +48,11 @@ export const FilterComponent = ({ enableVoiceInput, isListening, previewText, or
                 </div>
             </div>
             <div className="border-t border-b border-neutral-200 p-3 w-[110px] h-16">
-                <span className="block text-[13px] text-neutral-600">Encoding</span>
+                <span className="block text-[13px] text-neutral-600 mb-1">Encoding</span>
                 <Dropdown dropdownValue={availableEncodingValue} value={'unicode'} setValue={() => {}}/>
             </div>
             <div className=" border border-neutral-200 rounded-r-xl p-3 w-[160px] h-16">
-                <span className="block text-[13px] text-neutral-600">Font Weight</span>
+                <span className="block text-[13px] text-neutral-600 mb-1">Font Weight</span>
                 <FontWeightDropdown dropdownValue={availableFontWeight} value={minimumStyles} setValue={setMinimumStyles}/>
             </div>
         </div>

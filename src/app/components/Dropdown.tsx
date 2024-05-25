@@ -13,7 +13,7 @@ export const Dropdown = ({dropdownValue, value, setValue} : IDropDown) => {
     return (
         <div className="relative">
             <div className="flex items-center cursor-pointer gap-x-1" onClick={() => setShowDropdown(!showDropdown)}>
-                <div className="min-w-11 capitalize">
+                <div className="min-w-11 capitalize text-sm font-semibold text-neutral-800">
                     {value}
                 </div>
                 <div>

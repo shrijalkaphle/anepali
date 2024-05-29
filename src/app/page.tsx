@@ -91,7 +91,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container lg:mt-[116px] mt-[40px]">
+      <div className="container lg:mt-[66px] mt-[40px]">
         <FilterComponent
           enableVoiceInput={enableVoiceInput}
           isListening={isListening}

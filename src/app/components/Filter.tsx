@@ -43,7 +43,7 @@ export const FilterComponent = ({ enableVoiceInput, isListening, previewText, or
                     {/* <select name="" id="">
                         o
                     </select> */}
-                    <Dropdown dropdownValue={availableFontSize} value={fontSize} setValue={setFontSize}/>
+                    <Dropdown dropdownValue={availableFontSize} value={fontSize} setValue={setFontSize} isFont={true}/>
                     <input type="range" min="12" max="128" value={fontSize} onChange={(e) => setFontSize(parseInt(e.target.value))} className="w-[100px] rangeSlider" ref={rangeSlider}/>
                 </div>
             </div>

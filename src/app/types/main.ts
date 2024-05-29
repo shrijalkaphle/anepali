@@ -24,4 +24,5 @@ export interface IDropDown {
     dropdownValue: string[]
     value: any
     setValue: (value: any) => void
+    isFont?: boolean
 }

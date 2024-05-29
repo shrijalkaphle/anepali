@@ -13,8 +13,8 @@ export const Dropdown = ({dropdownValue, value, setValue} : IDropDown) => {
     return (
         <div className="relative">
             <div className="flex items-center cursor-pointer gap-x-1" onClick={() => setShowDropdown(!showDropdown)}>
-                <div className="min-w-11 capitalize text-sm font-semibold text-neutral-800">
-                    {value}
+                <div className="min-w-11 capitalize text-sm font-medium text-neutral-800">
+                    {value} px
                 </div>
                 <div>
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -10,6 +10,11 @@ const config: Config = {
     extend: {
       spacing: {
         7.5: "1.875rem",
+      },
+      colors: {
+        primary: {
+          600: '#E31B39',
+        }
       }
     },
   },

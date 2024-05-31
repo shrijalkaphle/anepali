@@ -10,6 +10,8 @@ import { useSpeechRecognition } from "./hooks/useSpeechRecognition";
 import { Footer } from "./components/Footer";
 import { Loading } from "./components/Loading";
 
+import unidecode from 'unidecode';
+
 export default function Home() {
 
   // hhook
@@ -43,6 +45,7 @@ export default function Home() {
   useEffect(() => {
     window.innerWidth >= 1280 ? setFontSize(40) : (window.innerWidth >= 1024 ? setFontSize(36) : setFontSize(22))
     setPreviewText(text);
+    setOriginalText(unidecode(text));
     setPageLoading(false)
   }, [text])
 
@@ -102,6 +105,7 @@ export default function Home() {
           setFontSize={setFontSize}
           minimumStyles={minimumStyles}
           setMinimumStyles={changeMinimumStyles}
+          hasRecongnitionSupport={hasRecongnitionSupport}
         />
         <div className="mt-6">
           {
@@ -111,7 +115,6 @@ export default function Home() {
           }
         </div>
       </div>
-      <Footer />
     </>
   );
 }

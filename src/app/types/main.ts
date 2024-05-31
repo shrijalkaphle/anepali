@@ -17,6 +17,7 @@ export interface IFilterComponent {
     setFontSize: (value: number) => void
     minimumStyles: number
     setMinimumStyles: (value: number) => void
+    hasRecongnitionSupport: boolean
 }
 
 

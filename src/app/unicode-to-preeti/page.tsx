@@ -1,7 +1,7 @@
 'use client';
 import { useState } from "react"
 import { Navbar } from "../components/Navbar"
-import { unicodeToPreeti } from "../utils/preeti";
+import { convert_to_Preeti } from "../utils/preeti";
 
 function UnicodeToPreeti() {
 
@@ -9,7 +9,8 @@ function UnicodeToPreeti() {
     const [converted, setConverted] = useState<string>("")
 
     const convertToPreeti = () => {
-        setConverted(unicodeToPreeti(text))
+        // setConverted(convert_to_Preeti(text))
+        convert_to_Preeti(text)
     }
     return (
         <>

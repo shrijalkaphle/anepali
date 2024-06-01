@@ -29,6 +29,8 @@ export default function Home() {
   const [fontSize, setFontSize] = useState<number>(40)
   const [minimumStyles, setMinimumStyles] = useState<number>(0)
 
+  const [encoding, setEncoding] = useState<string>("any")
+
   const filterSearchChange = (e: any) => {
     const value = e.target.value
     setFontSearchText(value);
@@ -75,6 +77,18 @@ export default function Home() {
 
   }
 
+  const changeEncoding = (value: string) => {
+    setEncoding(value)
+    if(value !== 'any'){
+      const filteredFont = fontData.filter((font) => {
+        return font.encoding == value;
+      })
+      setFonts(filteredFont);
+    } else {
+      setFonts(fontData);
+    }
+  }
+
   if (pageLoading) return <Loading />
 
   // return <Loading/>
@@ -106,11 +120,13 @@ export default function Home() {
           minimumStyles={minimumStyles}
           setMinimumStyles={changeMinimumStyles}
           hasRecongnitionSupport={hasRecongnitionSupport}
+          encoding={encoding}
+          setEncoding={changeEncoding}
         />
         <div className="mt-6">
           {
             fonts.map((font, index) => (
-              <FontList key={index} font={font} previewText={previewText} fontSize={fontSize} />
+              <FontList key={index} font={font} previewText={previewText} fontSize={fontSize}/>
             ))
           }
         </div>

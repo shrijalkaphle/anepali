@@ -7,7 +7,8 @@ export const fontData: IFont[] = [
         "designer": "Tall Chai",
         "fontClass": "font-akshar",
         "path": "Akshar.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Alkatra",
@@ -15,7 +16,8 @@ export const fontData: IFont[] = [
         "designer": "Suman Bhandary",
         "fontClass": "font-alkatra",
         "path": "Alkatra.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Amiko",
@@ -23,7 +25,8 @@ export const fontData: IFont[] = [
         "designer": "Impallari Type",
         "fontClass": "font-amiko",
         "path": "Amiko.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Amita",
@@ -31,7 +34,8 @@ export const fontData: IFont[] = [
         "designer": "Eduardo Tunni, Brian Bonislawsky",
         "fontClass": "font-amita",
         "path": "Amita.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Anek Devanagari",
@@ -39,7 +43,8 @@ export const fontData: IFont[] = [
         "designer": "Ek Type",
         "fontClass": "font-anek-devanagari",
         "path": "Anek_Devanagari.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Annapurna SIL",
@@ -47,7 +52,8 @@ export const fontData: IFont[] = [
         "designer": "SIL International",
         "fontClass": "font-annapurna-sil",
         "path": "Annapurna_SIL.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Arya",
@@ -55,7 +61,8 @@ export const fontData: IFont[] = [
         "designer": "Eduardo Tunni",
         "fontClass": "font-arya",
         "path": "Arya.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Asar",
@@ -63,7 +70,8 @@ export const fontData: IFont[] = [
         "designer": "Sorkin Type",
         "fontClass": "font-asar",
         "path": "Asar.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Bakbak One",
@@ -71,7 +79,8 @@ export const fontData: IFont[] = [
         "designer": "Saumya Kishore, Sanchit Sawaria",
         "fontClass": "font-bakbak-one",
         "path": "Bakbak_One.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Baloo 2",
@@ -79,7 +88,8 @@ export const fontData: IFont[] = [
         "designer": "Ek Type",
         "fontClass": "font-baloo-2",
         "path": "Baloo_2.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Biryani",
@@ -87,7 +97,8 @@ export const fontData: IFont[] = [
         "designer": "Dan Reynolds, Mathieu Reguer",
         "fontClass": "font-biryani",
         "path": "Biryani.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Cambay",
@@ -95,7 +106,8 @@ export const fontData: IFont[] = [
         "designer": "Pooja Saxena",
         "fontClass": "font-cambay",
         "path": "Cambay.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Dekko",
@@ -103,7 +115,8 @@ export const fontData: IFont[] = [
         "designer": "Sorkin Type",
         "fontClass": "font-dekko",
         "path": "Dekko.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Eczar",
@@ -111,7 +124,8 @@ export const fontData: IFont[] = [
         "designer": "Rosetta, Vaibhav Singh",
         "fontClass": "font-eczar",
         "path": "Eczar.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Gajraj One",
@@ -119,7 +133,8 @@ export const fontData: IFont[] = [
         "designer": "Saurabh Sharma",
         "fontClass": "font-gajraj-one",
         "path": "Gajraj_One.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Glegoo",
@@ -127,7 +142,8 @@ export const fontData: IFont[] = [
         "designer": "Eduardo Tunni",
         "fontClass": "font-glegoo",
         "path": "Glegoo.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Gotu",
@@ -135,7 +151,8 @@ export const fontData: IFont[] = [
         "designer": "Ek Type",
         "fontClass": "font-gotu",
         "path": "Gotu.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Halant",
@@ -143,7 +160,8 @@ export const fontData: IFont[] = [
         "designer": "Indian Type Foundry",
         "fontClass": "font-halant",
         "path": "Halant.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Hind",
@@ -151,7 +169,8 @@ export const fontData: IFont[] = [
         "designer": "Indian Type Foundry",
         "fontClass": "font-hind",
         "path": "Hind.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "IBM Plex Sans Devnagari",
@@ -159,7 +178,8 @@ export const fontData: IFont[] = [
         "designer": "Mike Abbink, Bold Monday",
         "fontClass": "font-ibm-plex-sans-devnagari",
         "path": "IBM_Plex_Sans_Devnagari.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Inknut Antiqua",
@@ -167,7 +187,8 @@ export const fontData: IFont[] = [
         "designer": "Claus Eggers S\u00f8rensen",
         "fontClass": "font-inknut-antiqua",
         "path": "Inknut_Antiqua.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Jaini",
@@ -175,7 +196,8 @@ export const fontData: IFont[] = [
         "designer": "Ek Type",
         "fontClass": "font-jaini",
         "path": "Jaini.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Jaini Purva",
@@ -183,7 +205,8 @@ export const fontData: IFont[] = [
         "designer": "Ek Type",
         "fontClass": "font-jaini-purva",
         "path": "Jaini_Purva.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Jaldi",
@@ -191,7 +214,8 @@ export const fontData: IFont[] = [
         "designer": "Omnibus-Type",
         "fontClass": "font-jaldi",
         "path": "Jaldi.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Kadwa",
@@ -199,7 +223,8 @@ export const fontData: IFont[] = [
         "designer": "Sol Matas",
         "fontClass": "font-kadwa",
         "path": "Kadwa.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Kalam",
@@ -207,7 +232,8 @@ export const fontData: IFont[] = [
         "designer": "Indian Type Foundry",
         "fontClass": "font-kalam",
         "path": "Kalam.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Karma",
@@ -215,7 +241,8 @@ export const fontData: IFont[] = [
         "designer": "Indian Type Foundry",
         "fontClass": "font-karma",
         "path": "Karma.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Khand",
@@ -223,7 +250,8 @@ export const fontData: IFont[] = [
         "designer": "Indian Type Foundry",
         "fontClass": "font-khand",
         "path": "Khand.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Khula",
@@ -231,7 +259,8 @@ export const fontData: IFont[] = [
         "designer": "Erin McLaughlin",
         "fontClass": "font-khula",
         "path": "Khula.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Kurale",
@@ -239,7 +268,8 @@ export const fontData: IFont[] = [
         "designer": "Eduardo Tunni",
         "fontClass": "font-kurale",
         "path": "Kurale.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Laila",
@@ -247,7 +277,8 @@ export const fontData: IFont[] = [
         "designer": "Indian Type Foundry",
         "fontClass": "font-laila",
         "path": "Laila.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Martel",
@@ -255,7 +286,8 @@ export const fontData: IFont[] = [
         "designer": "Dan Reynolds",
         "fontClass": "font-martel",
         "path": "Martel.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Martel Sans",
@@ -263,7 +295,8 @@ export const fontData: IFont[] = [
         "designer": "Dan Reynolds, Mathieu Reguer",
         "fontClass": "font-martel-sans",
         "path": "Martel_Sans.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Modak",
@@ -271,7 +304,8 @@ export const fontData: IFont[] = [
         "designer": "Ek Type",
         "fontClass": "font-modak",
         "path": "Modak.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Mukta",
@@ -279,7 +313,8 @@ export const fontData: IFont[] = [
         "designer": "Ek Type",
         "fontClass": "font-mukta",
         "path": "Mukta.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Noto Sans",
@@ -287,7 +322,8 @@ export const fontData: IFont[] = [
         "designer": "Google",
         "fontClass": "font-noto-sans",
         "path": "Noto_Sans.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Noto Sans Devanagari",
@@ -295,7 +331,8 @@ export const fontData: IFont[] = [
         "designer": "Google",
         "fontClass": "font-noto-sans-devanagari",
         "path": "Noto_Sans_Devanagari.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Noto Serif Devanagari",
@@ -303,7 +340,8 @@ export const fontData: IFont[] = [
         "designer": "Google",
         "fontClass": "font-noto-serif-devanagari",
         "path": "Noto_Serif_Devanagari.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Palanquin",
@@ -311,7 +349,8 @@ export const fontData: IFont[] = [
         "designer": "Pria Ravichandran",
         "fontClass": "font-palanquin",
         "path": "Palanquin.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Palanquin Dark",
@@ -319,7 +358,8 @@ export const fontData: IFont[] = [
         "designer": "Pria Ravichandran",
         "fontClass": "font-palanquin-dark",
         "path": "Palanquin_Dark.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Pragati Narrow",
@@ -327,7 +367,8 @@ export const fontData: IFont[] = [
         "designer": "Omnibus-Type",
         "fontClass": "font-pragati-narrow",
         "path": "Pragati_Narrow.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Rajdhani",
@@ -335,7 +376,8 @@ export const fontData: IFont[] = [
         "designer": "Indian Type Foundry",
         "fontClass": "font-rajdhani",
         "path": "Rajdhani.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Ranga",
@@ -343,7 +385,8 @@ export const fontData: IFont[] = [
         "designer": "TipTopTyp",
         "fontClass": "font-ranga",
         "path": "Ranga.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Rhodium Libre",
@@ -351,7 +394,8 @@ export const fontData: IFont[] = [
         "designer": "James Puckett",
         "fontClass": "font-rhodium-libre",
         "path": "Rhodium_Libre.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Rozha One",
@@ -359,7 +403,8 @@ export const fontData: IFont[] = [
         "designer": "Indian Type Foundry",
         "fontClass": "font-rozha-one",
         "path": "Rozha_One.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Sahitya",
@@ -367,7 +412,8 @@ export const fontData: IFont[] = [
         "designer": "Juan Pable del Peral",
         "fontClass": "font-sahitya",
         "path": "Sahitya.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Sarala",
@@ -375,7 +421,8 @@ export const fontData: IFont[] = [
         "designer": "Andres Torresi",
         "fontClass": "font-sarala",
         "path": "Sarala.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Sarpanch",
@@ -383,7 +430,8 @@ export const fontData: IFont[] = [
         "designer": "Indian Type Foundry",
         "fontClass": "font-sarpanch",
         "path": "Sarpanch.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Sumana",
@@ -391,7 +439,8 @@ export const fontData: IFont[] = [
         "designer": "Cyreal",
         "fontClass": "font-sumana",
         "path": "Sumana.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Sura",
@@ -399,7 +448,8 @@ export const fontData: IFont[] = [
         "designer": "Carolina Giovagnoli",
         "fontClass": "font-sura",
         "path": "Sura.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Teko",
@@ -407,7 +457,8 @@ export const fontData: IFont[] = [
         "designer": "Indian Type Foundry",
         "fontClass": "font-teko",
         "path": "Teko.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Tiliana",
@@ -415,7 +466,8 @@ export const fontData: IFont[] = [
         "designer": "Indian Type Foundry",
         "fontClass": "font-tiliana",
         "path": "Tiliana.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Tiro Devanagari Hindi",
@@ -423,7 +475,8 @@ export const fontData: IFont[] = [
         "designer": "Tiro Typeworks, John Hudson, Fiona Ross, Paul Hanslow",
         "fontClass": "font-tiro-devanagari-hindi",
         "path": "Tiro_Devanagari_Hindi.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Tiro Devanagari Marathi",
@@ -431,7 +484,8 @@ export const fontData: IFont[] = [
         "designer": "Tiro Typeworks, John Hudson, Fiona Ross, Paul Hanslow",
         "fontClass": "font-tiro-devanagari-marathi",
         "path": "Tiro_Devanagari_Marathi.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Tiro Devanagari Sanskrit",
@@ -439,7 +493,8 @@ export const fontData: IFont[] = [
         "designer": "Tiro Typeworks, John Hudson, Fiona Ross, Paul Hanslow",
         "fontClass": "font-tiro-devanagari-sanskrit",
         "path": "Tiro_Devanagari_Sanskrit.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Vesper Libre",
@@ -447,7 +502,8 @@ export const fontData: IFont[] = [
         "designer": "Mota Italic",
         "fontClass": "font-vesper-libre",
         "path": "Vesper_Libre.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Yantramanav",
@@ -455,7 +511,8 @@ export const fontData: IFont[] = [
         "designer": "Erin McLaughlin",
         "fontClass": "font-yantramanav",
         "path": "Yantramanav.zip",
-        "source": "Google Fonts"
+        "source": "Google Fonts",
+        "encoding": "unicode"
     },
     {
         "name": "Yatra One",
@@ -463,6 +520,692 @@ export const fontData: IFont[] = [
         "designer": "Catherine Leigh Schmidt",
         "fontClass": "font-yatra-one",
         "path": "Yatra_One.zip",
-        "source": "Google Fonts"
-    }
+        "source": "Google Fonts",
+        "encoding": "unicode"
+    },
+    {
+        "name": "0001 ARAP  BK",
+        "styles": 1,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-0001_arap__bk",
+        "path": "0001 ARAP  BK.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "001  Arap Graphic",
+        "styles": 1,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-001__arap_graphic",
+        "path": "001  Arap Graphic.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "0012  ARAP",
+        "styles": 3,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-0012__arap",
+        "path": "0012  ARAP.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "0012  ARAP  BI",
+        "styles": 1,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-0012__arap__bi",
+        "path": "0012  ARAP  BI.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "0017  ARAP",
+        "styles": 1,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-0017__arap",
+        "path": "0017  ARAP.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "003 ARAP",
+        "styles": 3,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-003_arap",
+        "path": "003 ARAP.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Aakriti",
+        "styles": 2,
+        "designer": "Sunil Khadgi",
+        "fontClass": "font-aakriti",
+        "path": "Aakriti.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Abhinav",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-abhinav",
+        "path": "Abhinav.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ananda Devanagari KTM",
+        "styles": 1,
+        "designer": "Ananda Maharjan",
+        "fontClass": "font-ananda_devanagari_ktm",
+        "path": "Ananda Devanagari KTM.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ananda Devanagari NP",
+        "styles": 1,
+        "designer": "Ananda Maharjan",
+        "fontClass": "font-ananda_devanagari_np",
+        "path": "Ananda Devanagari NP.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ananda Fanko 2",
+        "styles": 1,
+        "designer": "Ananda K. Maharjan",
+        "fontClass": "font-ananda_fanko_2",
+        "path": "Ananda Fanko 2.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ananda Lipi Bold Bt",
+        "styles": 1,
+        "designer": "Ananda Maharjan",
+        "fontClass": "font-ananda_lipi_bold_bt",
+        "path": "Ananda Lipi Bold Bt.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ananda Lipi Bold Cn Bt",
+        "styles": 1,
+        "designer": "Ananda Maharjan",
+        "fontClass": "font-ananda_lipi_bold_cn_bt",
+        "path": "Ananda Lipi Bold Cn Bt.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ananda Lipi Bt",
+        "styles": 1,
+        "designer": "Ananda Maharjan",
+        "fontClass": "font-ananda_lipi_bt",
+        "path": "Ananda Lipi Bt.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ananda Lipi Cn Bt",
+        "styles": 1,
+        "designer": "Ananda Maharjan",
+        "fontClass": "font-ananda_lipi_cn_bt",
+        "path": "Ananda Lipi Cn Bt.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ananda Lipi Lt Bt",
+        "styles": 1,
+        "designer": "Ananda Maharjan",
+        "fontClass": "font-ananda_lipi_lt_bt",
+        "path": "Ananda Lipi Lt Bt.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ananda Thopla",
+        "styles": 1,
+        "designer": "Ananda Maharjan",
+        "fontClass": "font-ananda_thopla",
+        "path": "Ananda Thopla.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ananda ukaliorali",
+        "styles": 1,
+        "designer": "Ananda Maharjan",
+        "fontClass": "font-ananda_ukaliorali",
+        "path": "Ananda ukaliorali.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ananda Ukaliorali 2",
+        "styles": 1,
+        "designer": "Ananda Maharjan",
+        "fontClass": "font-ananda_ukaliorali_2",
+        "path": "Ananda Ukaliorali 2.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ananda Ukaliorali 3",
+        "styles": 1,
+        "designer": "Ananda Maharjan",
+        "fontClass": "font-ananda_ukaliorali_3",
+        "path": "Ananda Ukaliorali 3.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Anandaround",
+        "styles": 1,
+        "designer": "Ananda K. Maharjan",
+        "fontClass": "font-anandaround",
+        "path": "Anandaround.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "AnandaSansar",
+        "styles": 1,
+        "designer": "Ananda K. Maharjan",
+        "fontClass": "font-anandasansar",
+        "path": "AnandaSansar.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Anandazz Hv",
+        "styles": 1,
+        "designer": "Ananda K. Maharjan",
+        "fontClass": "font-anandazz_hv",
+        "path": "Anandazz Hv.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Anandazz Lt",
+        "styles": 1,
+        "designer": "Ananda K. Maharjan",
+        "fontClass": "font-anandazz_lt",
+        "path": "Anandazz Lt.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "ARAP  003",
+        "styles": 1,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-arap__003",
+        "path": "ARAP  003.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "ARAP  006",
+        "styles": 1,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-arap__006",
+        "path": "ARAP  006.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "ARAP 002",
+        "styles": 1,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-arap_002",
+        "path": "ARAP 002.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "ARAP 004",
+        "styles": 1,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-arap_004",
+        "path": "ARAP 004.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "ARAP 008",
+        "styles": 1,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-arap_008",
+        "path": "ARAP 008.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "ARAP 009",
+        "styles": 1,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-arap_009",
+        "path": "ARAP 009.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "ARAP 010",
+        "styles": 1,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-arap_010",
+        "path": "ARAP 010.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "ARAP 1111",
+        "styles": 1,
+        "designer": "GrafoTech",
+        "fontClass": "font-arap_1111",
+        "path": "ARAP 1111.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "ARAP007",
+        "styles": 1,
+        "designer": "AGNI RAJ POUDEL",
+        "fontClass": "font-arap007",
+        "path": "ARAP007.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Bahunbad",
+        "styles": 1,
+        "designer": "Chandra Khaki",
+        "fontClass": "font-bahunbad",
+        "path": "Bahunbad.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Banban",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-banban",
+        "path": "Banban.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Bantawa",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-bantawa",
+        "path": "Bantawa.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Bhaktapur",
+        "styles": 1,
+        "designer": "Janardan Ghimire",
+        "fontClass": "font-bhaktapur",
+        "path": "Bhaktapur.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Bikrant Bold",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-bikrant_bold",
+        "path": "Bikrant Bold.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Bina",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-bina",
+        "path": "Bina.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Bishwa Calligraphy",
+        "styles": 1,
+        "designer": "Bishwa Adhikari.",
+        "fontClass": "font-bishwa_calligraphy",
+        "path": "Bishwa Calligraphy.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "CV Bihani",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-cv_bihani",
+        "path": "CV Bihani.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "CV Gadah",
+        "styles": 1,
+        "designer": "Sahadev Khaki",
+        "fontClass": "font-cv_gadah",
+        "path": "CV Gadah.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "CV Haha",
+        "styles": 1,
+        "designer": "Graphics Edge",
+        "fontClass": "font-cv_haha",
+        "path": "CV Haha.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "CV Rabinbold",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-cv_rabinbold",
+        "path": "CV Rabinbold.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Deepankar",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-deepankar",
+        "path": "Deepankar.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Dev Nep",
+        "styles": 1,
+        "designer": "meghna pradhan",
+        "fontClass": "font-dev_nep",
+        "path": "Dev Nep.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Gadha",
+        "styles": 2,
+        "designer": "Sahadev Khaki",
+        "fontClass": "font-gadha",
+        "path": "Gadha.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ganga 1",
+        "styles": 1,
+        "designer": "Manish Shrestha",
+        "fontClass": "font-ganga_1",
+        "path": "Ganga 1.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Himalayabold",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-himalayabold",
+        "path": "Himalayabold.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Himalli",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-himalli",
+        "path": "Himalli.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "KalpanaUttam i",
+        "styles": 1,
+        "designer": "Uttam Ranjitkar",
+        "fontClass": "font-kalpanauttam_i",
+        "path": "KalpanaUttam i.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Kam",
+        "styles": 1,
+        "designer": "Creative Touch",
+        "fontClass": "font-kam",
+        "path": "Kam.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Kanchan",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-kanchan",
+        "path": "Kanchan.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Katmandu",
+        "styles": 1,
+        "designer": "John P. Yangos",
+        "fontClass": "font-katmandu",
+        "path": "Katmandu.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "khelkud",
+        "styles": 2,
+        "designer": "Unknown",
+        "fontClass": "font-khelkud",
+        "path": "khelkud.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Kirti",
+        "styles": 1,
+        "designer": "Creative Touch",
+        "fontClass": "font-kirti",
+        "path": "Kirti.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Maiya",
+        "styles": 1,
+        "designer": "Meghna Pradhan",
+        "fontClass": "font-maiya",
+        "path": "Maiya.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Meghana",
+        "styles": 1,
+        "designer": "Graphics Edge",
+        "fontClass": "font-meghana",
+        "path": "Meghana.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Meghubold",
+        "styles": 1,
+        "designer": "Meghna Kali, MCCS, Kathmandu",
+        "fontClass": "font-meghubold",
+        "path": "Meghubold.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "MKali",
+        "styles": 1,
+        "designer": "meghna pradhan",
+        "fontClass": "font-mkali",
+        "path": "MKali.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "MulChand",
+        "styles": 1,
+        "designer": "MCCS, Kathmandu",
+        "fontClass": "font-mulchand",
+        "path": "MulChand.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "MulRam",
+        "styles": 1,
+        "designer": "MCCS, Kathmandu",
+        "fontClass": "font-mulram",
+        "path": "MulRam.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Old Nepali",
+        "styles": 2,
+        "designer": "Rakesh Maharjan",
+        "fontClass": "font-old_nepali",
+        "path": "Old Nepali.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Pagal",
+        "styles": 1,
+        "designer": "Sahadev Khaki (Pradhan)",
+        "fontClass": "font-pagal",
+        "path": "Pagal.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Pagali",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-pagali",
+        "path": "Pagali.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Parvati",
+        "styles": 1,
+        "designer": "Manish",
+        "fontClass": "font-parvati",
+        "path": "Parvati.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "PawanG",
+        "styles": 1,
+        "designer": "SpaceTime Publication",
+        "fontClass": "font-pawang",
+        "path": "PawanG.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Preeti",
+        "styles": 2,
+        "designer": "Unknown",
+        "fontClass": "font-preeti",
+        "path": "Preeti.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Ritu",
+        "styles": 1,
+        "designer": "RAMESH JOSHI",
+        "fontClass": "font-ritu",
+        "path": "Ritu.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Rukmini",
+        "styles": 1,
+        "designer": "Unknown",
+        "fontClass": "font-rukmini",
+        "path": "Rukmini.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Sapana",
+        "styles": 1,
+        "designer": "Graphics Illustrator",
+        "fontClass": "font-sapana",
+        "path": "Sapana.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Shangrila Textual",
+        "styles": 1,
+        "designer": "Raghunath Dhungel",
+        "fontClass": "font-shangrila_textual",
+        "path": "Shangrila Textual.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Shreenath Bold",
+        "styles": 1,
+        "designer": "meghna pradhan",
+        "fontClass": "font-shreenath_bold",
+        "path": "Shreenath Bold.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Suvadin",
+        "styles": 1,
+        "designer": "Inert nebula",
+        "fontClass": "font-suvadin",
+        "path": "Suvadin.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Timila",
+        "styles": 1,
+        "designer": "sunita",
+        "fontClass": "font-timila",
+        "path": "Timila.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+    {
+        "name": "Unnisha",
+        "styles": 3,
+        "designer": "chandra Khaki",
+        "fontClass": "font-unnisha",
+        "path": "Unnisha.zip",
+        "source": "wikinepali",
+        "encoding": "preeti"
+    },
+
 ]

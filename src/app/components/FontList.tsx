@@ -1,6 +1,7 @@
 "use client";
 
 import { IFont } from "../types/main";
+import convertUnicodeToPreeti from "../utils/preeti";
 
 export interface IFontList {
     previewText: string,
@@ -9,7 +10,10 @@ export interface IFontList {
 }
 
 export const FontList = ({ previewText, font, fontSize }: IFontList) => {
-    const { name, styles, designer, fontClass, path } = font
+    const { name, styles, designer, fontClass, path, encoding } = font
+
+    const placeholderText = 'काठमाडौंको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।'
+
     const downloadFont = () => {
         const downloadLink = document.createElement("a");
         downloadLink.href = './fonts/' + path;
@@ -34,6 +38,12 @@ export const FontList = ({ previewText, font, fontSize }: IFontList) => {
             e.target.previousSibling.style.borderColor = 'transparent'
         }
     }
+
+    const convertToPreeti = (text: string) => {
+        // return convert_to_Preeti(text);
+        return convertUnicodeToPreeti(text)
+    }
+
     return (
         <>
             <div className="w-full p-4 border-b border-neutral-200 hover:bg-neutral-100 hover:rounded-lg font-list" onMouseEnter={updateStyles} onMouseLeave={updateStyles}>
@@ -61,7 +71,14 @@ export const FontList = ({ previewText, font, fontSize }: IFontList) => {
                 <div className="mt-2 truncate">
                     <span className={`text-preview ${fontClass}`} style={{ fontSize: `${fontSize}px`, lineHeight: `${fontSize*1.5}px` }}>
                         {
-                            (previewText && previewText != " ") ? previewText : "काठमाडौंको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।"
+                            (previewText && previewText != " ") ? 
+                                <>
+                                    { encoding == 'unicode' ? previewText : convertToPreeti(previewText) }
+                                </>
+                            : 
+                            <>
+                                { encoding == 'unicode' ? placeholderText : convertToPreeti(placeholderText) }
+                            </>
                         }
                     </span>
                 </div>

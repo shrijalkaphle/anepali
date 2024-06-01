@@ -5,6 +5,7 @@ export interface IFont {
     fontClass: string
     path: string
     source: string
+    encoding: "preeti" | "unicode" | "others"
 }
 
 export interface IFilterComponent {
@@ -18,6 +19,8 @@ export interface IFilterComponent {
     minimumStyles: number
     setMinimumStyles: (value: number) => void
     hasRecongnitionSupport: boolean
+    encoding: string
+    setEncoding: (value: string) => void
 }
 
 

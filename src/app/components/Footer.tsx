@@ -30,9 +30,9 @@ export const Footer = () => {
                                 <span>Comming Soon</span>
                             </div>
                         </li> */}
-                        <li className="my-3 text-neutral-800">
+                        {/* <li className="my-3 text-neutral-800">
                             <Link href="/unicode-to-preeti">Unicode to Preeti</Link>
-                        </li>
+                        </li> */}
                         {/* <li className="my-3 text-neutral-600 flex items-center gap-x-2">
                             Nepali Voice Typing
                             <div className="rounded-full py-1 px-2 border border-neutral-200 flex items-center gap-x-1.5">

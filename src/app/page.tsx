@@ -45,7 +45,7 @@ export default function Home() {
   }
 
   useEffect(() => {
-    window.innerWidth >= 1280 ? setFontSize(100) : (window.innerWidth >= 1024 ? setFontSize(36) : setFontSize(22))
+    window.innerWidth >= 1280 ? setFontSize(40) : (window.innerWidth >= 1024 ? setFontSize(36) : setFontSize(22))
     setPreviewText(text);
     setOriginalText(unidecode(text));
     setPageLoading(false)

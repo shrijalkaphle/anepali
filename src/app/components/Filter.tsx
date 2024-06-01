@@ -20,18 +20,20 @@ export const FilterComponent = ({ enableVoiceInput, isListening, previewText, or
     return (
         <>
             <div className="w-full flex items-center">
-                <div className="flex items-center bg-neutral-100 gap-x-1 w-full border border-neutral-200 h-16 rounded-l-xl py-3">
-                    {/* <button className={`p-1.5 rounded-full ${!isListening ? "bg-primary-600" : "bg-white"}`} onClick={enableVoiceInput}> */}
+                <div className="flex items-center bg-neutral-100 gap-x-1 border border-neutral-200 h-16 rounded-l-xl py-3 w-[786px]">
                     {
                         hasRecongnitionSupport ?
                             <>
                                 {
                                     isListening ?
-                                        <div className="p-1.5 rounded-full bg-primary-600 border-[8px]">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                <path d="M16.4301 5.83798V11.408C16.2864 12.4703 15.7623 13.4445 14.9551 14.1499C14.1478 14.8553 13.1121 15.244 12.0401 15.244C10.9681 15.244 9.93244 14.8553 9.12519 14.1499C8.31794 13.4445 7.79389 12.4703 7.65015 11.408V5.83798C7.79389 4.77564 8.31794 3.80146 9.12519 3.09607C9.93244 2.39068 10.9681 2.00195 12.0401 2.00195C13.1121 2.00195 14.1478 2.39068 14.9551 3.09607C15.7623 3.80146 16.2864 4.77564 16.4301 5.83798Z" fill="white" />
-                                                <path d="M12.7901 17.998V20.498H15.6801C15.879 20.498 16.0698 20.5771 16.2104 20.7177C16.3511 20.8584 16.4301 21.0491 16.4301 21.248C16.4301 21.447 16.3511 21.6377 16.2104 21.7784C16.0698 21.919 15.879 21.998 15.6801 21.998H8.40011C8.2012 21.998 8.01043 21.919 7.86978 21.7784C7.72912 21.6377 7.65011 21.447 7.65011 21.248C7.65011 21.0491 7.72912 20.8584 7.86978 20.7177C8.01043 20.5771 8.2012 20.498 8.40011 20.498H11.2501V17.998C9.42006 17.8166 7.72316 16.9603 6.49008 15.596C5.257 14.2316 4.5761 12.457 4.5801 10.618C4.5801 10.4191 4.65912 10.2284 4.79977 10.0877C4.94042 9.94706 5.13119 9.86804 5.3301 9.86804C5.52902 9.86804 5.71979 9.94706 5.86044 10.0877C6.00109 10.2284 6.0801 10.4191 6.0801 10.618C6.0801 12.1881 6.70378 13.6939 7.81399 14.8041C8.92421 15.9143 10.43 16.5381 12.0001 16.5381C13.5702 16.5381 15.076 15.9143 16.1862 14.8041C17.2964 13.6939 17.9201 12.1881 17.9201 10.618C17.9201 10.4191 17.9991 10.2284 18.1397 10.0877C18.2804 9.94706 18.4712 9.86804 18.6701 9.86804C18.869 9.86804 19.0598 9.94706 19.2004 10.0877C19.3411 10.2284 19.4201 10.4191 19.4201 10.618C19.4241 12.457 18.7432 14.2316 17.5101 15.596C16.277 16.9603 14.5801 17.8166 12.7501 17.998H12.7901Z" fill="white" />
-                                            </svg>
+                                        <div className="relative flex items-center justify-center h-14 w-14">
+                                            <div className="p-1.5 rounded-full bg-primary-600 z-[10] absolute">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                    <path d="M16.4301 5.83798V11.408C16.2864 12.4703 15.7623 13.4445 14.9551 14.1499C14.1478 14.8553 13.1121 15.244 12.0401 15.244C10.9681 15.244 9.93244 14.8553 9.12519 14.1499C8.31794 13.4445 7.79389 12.4703 7.65015 11.408V5.83798C7.79389 4.77564 8.31794 3.80146 9.12519 3.09607C9.93244 2.39068 10.9681 2.00195 12.0401 2.00195C13.1121 2.00195 14.1478 2.39068 14.9551 3.09607C15.7623 3.80146 16.2864 4.77564 16.4301 5.83798Z" fill="white" />
+                                                    <path d="M12.7901 17.998V20.498H15.6801C15.879 20.498 16.0698 20.5771 16.2104 20.7177C16.3511 20.8584 16.4301 21.0491 16.4301 21.248C16.4301 21.447 16.3511 21.6377 16.2104 21.7784C16.0698 21.919 15.879 21.998 15.6801 21.998H8.40011C8.2012 21.998 8.01043 21.919 7.86978 21.7784C7.72912 21.6377 7.65011 21.447 7.65011 21.248C7.65011 21.0491 7.72912 20.8584 7.86978 20.7177C8.01043 20.5771 8.2012 20.498 8.40011 20.498H11.2501V17.998C9.42006 17.8166 7.72316 16.9603 6.49008 15.596C5.257 14.2316 4.5761 12.457 4.5801 10.618C4.5801 10.4191 4.65912 10.2284 4.79977 10.0877C4.94042 9.94706 5.13119 9.86804 5.3301 9.86804C5.52902 9.86804 5.71979 9.94706 5.86044 10.0877C6.00109 10.2284 6.0801 10.4191 6.0801 10.618C6.0801 12.1881 6.70378 13.6939 7.81399 14.8041C8.92421 15.9143 10.43 16.5381 12.0001 16.5381C13.5702 16.5381 15.076 15.9143 16.1862 14.8041C17.2964 13.6939 17.9201 12.1881 17.9201 10.618C17.9201 10.4191 17.9991 10.2284 18.1397 10.0877C18.2804 9.94706 18.4712 9.86804 18.6701 9.86804C18.869 9.86804 19.0598 9.94706 19.2004 10.0877C19.3411 10.2284 19.4201 10.4191 19.4201 10.618C19.4241 12.457 18.7432 14.2316 17.5101 15.596C16.277 16.9603 14.5801 17.8166 12.7501 17.998H12.7901Z" fill="white" />
+                                                </svg>
+                                            </div>
+                                            <div className="bg-neutral-200 rounded-full animate-wiggle h-14 w-14"></div>
                                         </div>
                                         :
                                         <button className="p-1.5 rounded-full bg-white border-[8px] border-neutral-100" onClick={enableVoiceInput}>
@@ -60,11 +62,11 @@ export const FilterComponent = ({ enableVoiceInput, isListening, previewText, or
                     }
                     {/* </button> */}
                     <div className="w-11/12">
-                        <input type="text" placeholder={`${isListening ? "Listening..." : "Type preview text here or click on the mic icon to use audio typing..."}`} className={`bg-transparent outline-none placeholder:text-neutral-500 w-full`} value={originalText} onChange={previewTextChange} maxLength={80}/>
+                        <input type="text" placeholder={`${isListening ? "Listening..." : "Type preview text here or click on the mic icon to use audio typing..."}`} className={`bg-transparent outline-none placeholder:text-neutral-500 w-full`} value={originalText} onChange={previewTextChange} maxLength={80} />
                         <div className="text-nowrap overflow-hidden">{previewText}</div>
                     </div>
                 </div>
-                <div className="border-t border-b border-r border-neutral-200 p-3 h-16">
+                <div className="border-t border-b border-r border-neutral-200 p-3 h-16 w-[196px]">
                     <span className="block text-[13px] text-neutral-600 mb-1">Font Size</span>
                     <div className="flex items-center gap-x-1">
                         {/* <select name="" id="">
@@ -78,7 +80,7 @@ export const FilterComponent = ({ enableVoiceInput, isListening, previewText, or
                     <span className="block text-[13px] text-neutral-600 mb-1">Encoding</span>
                     <Dropdown dropdownValue={availableEncodingValue} value={encoding} setValue={setEncoding} />
                 </div>
-                <div className=" border border-neutral-200 rounded-r-xl p-3 w-[160px] h-16">
+                <div className=" border border-neutral-200 rounded-r-xl p-3 w-[110px] h-16">
                     <span className="block text-[13px] text-neutral-600 mb-1">Font Weight</span>
                     <FontWeightDropdown dropdownValue={availableFontWeight} value={minimumStyles} setValue={setMinimumStyles} />
                 </div>

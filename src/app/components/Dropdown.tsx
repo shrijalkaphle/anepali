@@ -14,7 +14,7 @@ export const Dropdown = ({dropdownValue, value, setValue, isFont} : IDropDown) =
     return (
         <div className="relative">
             <div className="flex items-center cursor-pointer gap-x-1" onClick={() => setShowDropdown(!showDropdown)}>
-                <div className="min-w-11 capitalize text-sm font-medium text-neutral-800">
+                <div className="min-w-12 capitalize text-sm font-medium text-neutral-800">
                     {value} {isFont && <span className="lowercase">px</span> }
                 </div>
                 <div>

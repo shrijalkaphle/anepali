@@ -10,12 +10,28 @@
   .container {
     @apply xl:max-w-[1200px] lg:max-w-[1000px] lg:mx-5 mx-4 xl:mx-auto w-auto;
   }
-  
+
   .text-preview {
     @apply font-medium xl:text-[40px] xl:leading-[60px] text-[22px] leading-9 lg:text-4xl lg:leading-[54px];
   }
 
   body {
     @apply text-neutral-900;
+  }
+
+  @keyframes wiggle {
+
+    0%,
+    to {
+      transform: scale(1)
+    }
+
+    50% {
+      transform: scale(1.1)
+    }
+  }
+
+  .animate-wiggle {
+    animation: wiggle 1s ease-in-out infinite
   }
 }

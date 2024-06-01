@@ -877,7 +877,7 @@ export const fontData: IFont[] = [
     {
         "name": "Bishwa Calligraphy",
         "styles": 1,
-        "designer": "Bishwa Adhikari.",
+        "designer": "Bishwa Adhikari",
         "fontClass": "font-bishwa_calligraphy",
         "path": "Bishwa Calligraphy.zip",
         "source": "wikinepali",

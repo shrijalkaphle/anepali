@@ -15,7 +15,7 @@ const config: Config = {
         primary: {
           600: '#E31B39',
         }
-      }
+      },
     },
   },
   plugins: [],

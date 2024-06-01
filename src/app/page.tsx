@@ -99,7 +99,7 @@ export default function Home() {
 
       {/* beta release info */}
       <div className="container mt-[140px]">
-        <div className="px-2 py-1 text-neutral-800 font-semibold border border-neutral-200 rounded-lg w-fit">Beta Release</div>
+        <div className="px-2 py-1 text-neutral-800 font-medium text-sm border border-neutral-200 rounded-lg w-fit">Beta Release</div>
         <div className="mt-4">
           <span className="font-semibold text-[40px] leading-[48px]">Explore and Download Nepali Fonts</span>
           <p className="mt-5 text-neutral-600 w-[455px]">

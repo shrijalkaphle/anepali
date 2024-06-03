@@ -19,8 +19,8 @@ export const FilterComponent = ({ enableVoiceInput, isListening, previewText, or
 
     return (
         <>
-            <div className="w-full flex items-center">
-                <div className="flex items-center bg-neutral-100 gap-x-1 border border-neutral-200 h-16 rounded-l-xl py-3 w-[786px]">
+            <div className="w-fit lg:flex items-center">
+                <div className="flex items-center bg-neutral-100 gap-x-1 border border-neutral-200 h-16 lg:rounded-r-none lg:rounded-l-xl rounded-t-xl py-3 xl:w-[784px] lg:w-[584px] w-full">
                     {
                         hasRecongnitionSupport ?
                             <>
@@ -66,23 +66,25 @@ export const FilterComponent = ({ enableVoiceInput, isListening, previewText, or
                         <div className="text-nowrap overflow-hidden">{previewText}</div>
                     </div>
                 </div>
-                <div className="border-t border-b border-r border-neutral-200 p-3 h-16 w-[196px]">
-                    <span className="block text-[13px] text-neutral-600 mb-1">Font Size</span>
-                    <div className="flex items-center gap-x-1">
-                        {/* <select name="" id="">
+                <div className="flex">
+                    <div className="border-t border-b border-r border-neutral-200 p-3 h-16 max-w-[196px] border lg:border-l-0 rounded-bl-xl lg:rounded-bl-none">
+                        <span className="block text-[13px] text-neutral-600 mb-1">Font Size</span>
+                        <div className="flex items-center gap-x-1">
+                            {/* <select name="" id="">
                         o
                     </select> */}
-                        <Dropdown dropdownValue={availableFontSize} value={fontSize} setValue={setFontSize} isFont={true} />
-                        <input type="range" min="12" max="128" value={fontSize} onChange={(e) => setFontSize(parseInt(e.target.value))} className="w-[100px] rangeSlider" ref={rangeSlider} />
+                            <Dropdown dropdownValue={availableFontSize} value={fontSize} setValue={setFontSize} isFont={true} />
+                            <input type="range" min="12" max="128" value={fontSize} onChange={(e) => setFontSize(parseInt(e.target.value))} className="w-[100px] rangeSlider" ref={rangeSlider} />
+                        </div>
                     </div>
-                </div>
-                <div className="border-t border-b border-neutral-200 p-3 w-[110px] h-16">
-                    <span className="block text-[13px] text-neutral-600 mb-1">Encoding</span>
-                    <Dropdown dropdownValue={availableEncodingValue} value={encoding} setValue={setEncoding} />
-                </div>
-                <div className=" border border-neutral-200 rounded-r-xl p-3 w-[110px] h-16">
-                    <span className="block text-[13px] text-neutral-600 mb-1">Font Weight</span>
-                    <FontWeightDropdown dropdownValue={availableFontWeight} value={minimumStyles} setValue={setMinimumStyles} />
+                    <div className="border-t border-b border-neutral-200 p-3 max-w-[110px] h-16">
+                        <span className="block text-[13px] text-neutral-600 mb-1">Encoding</span>
+                        <Dropdown dropdownValue={availableEncodingValue} value={encoding} setValue={setEncoding} />
+                    </div>
+                    <div className=" border border-neutral-200 lg:rounded-r-xl p-3 max-w-[110px] h-16 rounded-br-xl">
+                        <span className="block text-[13px] text-neutral-600 mb-1">Font Weight</span>
+                        <FontWeightDropdown dropdownValue={availableFontWeight} value={minimumStyles} setValue={setMinimumStyles} />
+                    </div>
                 </div>
             </div>
         </>

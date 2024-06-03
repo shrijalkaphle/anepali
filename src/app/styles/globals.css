@@ -8,7 +8,7 @@
   }
 
   .container {
-    @apply xl:max-w-[1200px] lg:max-w-[1000px] lg:mx-5 mx-4 xl:mx-auto w-auto;
+    @apply xl:w-[1200px] lg:w-[1000px] lg:mx-5 mx-4 xl:mx-auto w-[95%];
   }
 
   .text-preview {

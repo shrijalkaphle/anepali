@@ -12,13 +12,13 @@ export const Footer = () => {
                 </div>
             </div>
             <hr />
-            <div className="container my-10 flex justify-between">
-                <div className="w-1/3">
+            <div className="container my-10 lg:flex justify-between">
+                <div className="lg:w-1/3 w-full">
                     <img src="/logo.png" alt="aNepali" className="h-8" />
                     <span className="mt-5 block">aNepali is a platform dedicated to improving experience of Nepalese community in the Internet. </span>
                 </div>
-                <div className="flex justify-between w-1/2">
-                    <ul>
+                <div className="lg:flex justify-between lg:w-1/2 w-full mt-10 lg:mt-0">
+                    <ul className="mt-10 lg:mt-0">
                         <li className="font-semibold">aNepali Services</li>
                         <li className="my-3 text-neutral-800">Nepali Typography</li>
                         {/* <li className="my-3 text-neutral-600 flex items-center gap-x-2">
@@ -43,7 +43,7 @@ export const Footer = () => {
                             </div>
                         </li> */}
                     </ul>
-                    <ul>
+                    <ul className="mt-10 lg:mt-0">
                         <li className="font-semibold">aNepali</li>
                         <li className="my-3 text-neutral-800">Blog articles</li>
                         <li className="my-3 text-neutral-800">About</li>

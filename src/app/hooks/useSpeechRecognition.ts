@@ -8,6 +8,7 @@ if(typeof window !== "undefined") {
         recongnition = new webkitSpeechRecognition();
         recongnition.continuous = true;
         recongnition.lang = 'ne';
+        console.log('recongnition : ', recongnition);
     }
 }
 
@@ -16,7 +17,11 @@ export const useSpeechRecognition = () => {
     const [isListening, setIsListening] = useState<boolean>(false);
 
     useEffect(() => {
-        if(!recongnition) return
+        if(!recongnition) {
+            console.log('wemp')
+            setIsListening(false);
+            return
+        }
 
         recongnition.onresult = (event: SpeechRecognitionEvent) => {
             console.log("event : ", event);
@@ -24,6 +29,15 @@ export const useSpeechRecognition = () => {
             recongnition.stop();
             setIsListening(false);
         }
+
+        // recongnition.onspeechstart = () => {
+        //     // setIsListening(false);
+        //     console.log('womp womp')
+        // }
+
+        // recongnition.onstart = () => {
+
+        // }
     }, [])
 
 

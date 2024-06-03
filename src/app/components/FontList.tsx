@@ -22,21 +22,21 @@ export const FontList = ({ previewText, font, fontSize }: IFontList) => {
     }
 
     const updateStyles = (e: any) => {
-        const currentBorderColor = e.target.style.borderColor
-        if(currentBorderColor === 'transparent'){
-            e.target.style.borderColor = '#e5e5e5'
-        }else{
-            e.target.style.borderColor = 'transparent'
-        }
+        // const currentBorderColor = e.target.style.borderColor
+        // if(currentBorderColor === 'transparent'){
+        //     e.target.style.borderColor = '#e5e5e5'
+        // }else{
+        //     e.target.style.borderColor = 'transparent'
+        // }
 
-        if(!e.target.previousSibling) return
+        // if(!e.target.previousSibling) return
 
-        const previousBorderColor = e.target.previousSibling.style.borderColor
-        if(previousBorderColor === 'transparent'){
-            e.target.previousSibling.style.borderColor = '#e5e5e5'
-        }else{
-            e.target.previousSibling.style.borderColor = 'transparent'
-        }
+        // const previousBorderColor = e.target.previousSibling.style.borderColor
+        // if(previousBorderColor === 'transparent'){
+        //     e.target.previousSibling.style.borderColor = '#e5e5e5'
+        // }else{
+        //     e.target.previousSibling.style.borderColor = 'transparent'
+        // }
     }
 
     const convertToPreeti = (text: string) => {
@@ -46,7 +46,7 @@ export const FontList = ({ previewText, font, fontSize }: IFontList) => {
 
     return (
         <>
-            <div className="w-full p-4 border-b border-neutral-200 hover:bg-neutral-100 hover:rounded-lg font-list" onMouseEnter={updateStyles} onMouseLeave={updateStyles}>
+            <div className="w-full p-4">
 
                 {/* font details */}
                 <div className="flex justify-between items-center">

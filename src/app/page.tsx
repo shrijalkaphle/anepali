@@ -23,6 +23,8 @@ export default function Home() {
   const [previewText, setPreviewText] = useState<string>("");
   const [fontSearchText, setFontSearchText] = useState<string>("");
 
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
   const [fonts, setFonts] = useState<IFont[]>(fontData);
 
   // filter font data
@@ -79,7 +81,7 @@ export default function Home() {
 
   const changeEncoding = (value: string) => {
     setEncoding(value)
-    if(value !== 'any'){
+    if (value !== 'any') {
       const filteredFont = fontData.filter((font) => {
         return font.encoding == value;
       })
@@ -88,6 +90,15 @@ export default function Home() {
       setFonts(fontData);
     }
   }
+
+  const handleMouseOver = (index: number) => {
+    setHoveredIndex(index);
+  };
+
+  const handleMouseOut = () => {
+    setHoveredIndex(null);
+  };
+
 
   if (pageLoading) return <Loading />
 
@@ -126,7 +137,13 @@ export default function Home() {
         <div className="mt-6">
           {
             fonts.map((font, index) => (
-              <FontList key={index} font={font} previewText={previewText} fontSize={fontSize}/>
+              
+              <div key={index} onMouseOver={() => handleMouseOver(index)} onMouseOut={handleMouseOut}
+                //@ts-ignore
+                className={`border-b border-neutral-200 hover:bg-neutral-100 hover:rounded-lg ${index == hoveredIndex || index == (hoveredIndex - 1) ? 'border-transparent' : ''}`}>
+                <FontList font={font} previewText={previewText} fontSize={fontSize} />
+              </div>
+
             ))
           }
         </div>

@@ -34,4 +34,9 @@
   .animate-wiggle {
     animation: wiggle 1s ease-in-out infinite
   }
+
+  .font-list.hovered,
+  .font-list.hovered+.font-list {
+    border-color: transparent;
+  }
 }

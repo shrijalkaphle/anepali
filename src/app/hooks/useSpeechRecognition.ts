@@ -8,7 +8,6 @@ if(typeof window !== "undefined") {
         recongnition = new webkitSpeechRecognition();
         recongnition.continuous = true;
         recongnition.lang = 'ne';
-        console.log('recongnition : ', recongnition);
     }
 }
 

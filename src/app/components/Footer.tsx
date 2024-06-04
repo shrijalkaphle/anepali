@@ -3,7 +3,7 @@ import Link from "next/link"
 export const Footer = () => {
     return (
         <footer>
-            <div className="container mt-[131px] my-10">
+            <div className="container mt-20 my-10">
                 {/* <div className="rounded-lg bg-neutral-50 h-[136px] flex items-center justify-center">
                     Ad Space
                 </div> */}
@@ -14,7 +14,7 @@ export const Footer = () => {
             <hr />
             <div className="container my-10 lg:flex justify-between">
                 <div className="lg:w-1/3 w-full">
-                    <img src="/logo.png" alt="aNepali" className="h-8" />
+                    <img src="/assets/logo.svg" alt="aNepali" className="h-8" />
                     <span className="mt-5 block">aNepali is a platform dedicated to improving experience of Nepalese community in the Internet. </span>
                 </div>
                 <div className="lg:flex justify-between lg:w-1/2 w-full mt-10 lg:mt-0">

@@ -1129,7 +1129,7 @@ export const fontData: IFont[] = [
     {
         "name": "Preeti",
         "styles": 2,
-        "designer": "Unknown",
+        "designer": "Ajay Mishra",
         "fontClass": "font-preeti",
         "path": "Preeti.zip",
         "source": "wikinepali",

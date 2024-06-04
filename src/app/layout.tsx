@@ -7,7 +7,20 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "aNepali",
-  description: "Nepali font list",
+  description: "Explore and Download Free Nepali Fonts. Use Voice typing, Search and filter fonts from a list of over 130 nepali fonts.",
+  openGraph: {
+    title: "aNepali",
+    description: "Explore and Download Free Nepali Fonts. Use Voice typing, Search and filter fonts from a list of over 130 nepali fonts.",
+    url: "https://anepali.com/",
+    siteName: "aNepali",
+    images: [
+      {
+        url: "https://anepali.com/assets/og_image.png"
+      },
+    ],
+    locale: "en-US",
+    type: "website",
+  }
 };
 
 export default function RootLayout({

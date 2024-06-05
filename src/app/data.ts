@@ -528,7 +528,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-0001_arap__bk",
-        "path": "0001 ARAP  BK.zip",
+        "path": "0001_ARAP__BK.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -537,7 +537,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-001__arap_graphic",
-        "path": "001  Arap Graphic.zip",
+        "path": "001__Arap_Graphic.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -546,7 +546,7 @@ export const fontData: IFont[] = [
         "styles": 3,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-0012__arap",
-        "path": "0012  ARAP.zip",
+        "path": "0012__ARAP.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -555,7 +555,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-0012__arap__bi",
-        "path": "0012  ARAP  BI.zip",
+        "path": "0012__ARAP__BI.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -564,7 +564,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-0017__arap",
-        "path": "0017  ARAP.zip",
+        "path": "0017__ARAP.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -573,7 +573,7 @@ export const fontData: IFont[] = [
         "styles": 3,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-003_arap",
-        "path": "003 ARAP.zip",
+        "path": "003_ARAP.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -600,7 +600,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda Maharjan",
         "fontClass": "font-ananda_devanagari_ktm",
-        "path": "Ananda Devanagari KTM.zip",
+        "path": "Ananda_Devanagari_KTM.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -609,7 +609,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda Maharjan",
         "fontClass": "font-ananda_devanagari_np",
-        "path": "Ananda Devanagari NP.zip",
+        "path": "Ananda_Devanagari_NP.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -618,7 +618,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda K. Maharjan",
         "fontClass": "font-ananda_fanko_2",
-        "path": "Ananda Fanko 2.zip",
+        "path": "Ananda_Fanko_2.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -627,7 +627,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda Maharjan",
         "fontClass": "font-ananda_lipi_bold_bt",
-        "path": "Ananda Lipi Bold Bt.zip",
+        "path": "Ananda_Lipi_Bold_Bt.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -636,7 +636,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda Maharjan",
         "fontClass": "font-ananda_lipi_bold_cn_bt",
-        "path": "Ananda Lipi Bold Cn Bt.zip",
+        "path": "Ananda_Lipi_Bold_Cn_Bt.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -645,7 +645,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda Maharjan",
         "fontClass": "font-ananda_lipi_bt",
-        "path": "Ananda Lipi Bt.zip",
+        "path": "Ananda_Lipi_Bt.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -654,7 +654,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda Maharjan",
         "fontClass": "font-ananda_lipi_cn_bt",
-        "path": "Ananda Lipi Cn Bt.zip",
+        "path": "Ananda_Lipi_Cn_Bt.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -663,7 +663,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda Maharjan",
         "fontClass": "font-ananda_lipi_lt_bt",
-        "path": "Ananda Lipi Lt Bt.zip",
+        "path": "Ananda_Lipi_Lt_Bt.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -672,7 +672,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda Maharjan",
         "fontClass": "font-ananda_thopla",
-        "path": "Ananda Thopla.zip",
+        "path": "Ananda_Thopla.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -681,7 +681,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda Maharjan",
         "fontClass": "font-ananda_ukaliorali",
-        "path": "Ananda ukaliorali.zip",
+        "path": "Ananda_ukaliorali.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -690,7 +690,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda Maharjan",
         "fontClass": "font-ananda_ukaliorali_2",
-        "path": "Ananda Ukaliorali 2.zip",
+        "path": "Ananda_Ukaliorali_2.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -699,7 +699,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda Maharjan",
         "fontClass": "font-ananda_ukaliorali_3",
-        "path": "Ananda Ukaliorali 3.zip",
+        "path": "Ananda_Ukaliorali_3.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -726,7 +726,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda K. Maharjan",
         "fontClass": "font-anandazz_hv",
-        "path": "Anandazz Hv.zip",
+        "path": "Anandazz_Hv.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -735,7 +735,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Ananda K. Maharjan",
         "fontClass": "font-anandazz_lt",
-        "path": "Anandazz Lt.zip",
+        "path": "Anandazz_Lt.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -744,7 +744,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-arap__003",
-        "path": "ARAP  003.zip",
+        "path": "ARAP__003.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -753,7 +753,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-arap__006",
-        "path": "ARAP  006.zip",
+        "path": "ARAP__006.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -762,7 +762,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-arap_002",
-        "path": "ARAP 002.zip",
+        "path": "ARAP_002.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -771,7 +771,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-arap_004",
-        "path": "ARAP 004.zip",
+        "path": "ARAP_004.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -780,7 +780,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-arap_008",
-        "path": "ARAP 008.zip",
+        "path": "ARAP_008.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -789,7 +789,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-arap_009",
-        "path": "ARAP 009.zip",
+        "path": "ARAP_009.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -798,7 +798,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "AGNI RAJ POUDEL",
         "fontClass": "font-arap_010",
-        "path": "ARAP 010.zip",
+        "path": "ARAP_010.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -807,7 +807,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "GrafoTech",
         "fontClass": "font-arap_1111",
-        "path": "ARAP 1111.zip",
+        "path": "ARAP_1111.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -861,7 +861,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Unknown",
         "fontClass": "font-bikrant_bold",
-        "path": "Bikrant Bold.zip",
+        "path": "Bikrant_Bold.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -879,7 +879,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Bishwa Adhikari",
         "fontClass": "font-bishwa_calligraphy",
-        "path": "Bishwa Calligraphy.zip",
+        "path": "Bishwa_Calligraphy.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -888,7 +888,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Unknown",
         "fontClass": "font-cv_bihani",
-        "path": "CV Bihani.zip",
+        "path": "CV_Bihani.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -897,7 +897,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Sahadev Khaki",
         "fontClass": "font-cv_gadah",
-        "path": "CV Gadah.zip",
+        "path": "CV_Gadah.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -906,7 +906,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Graphics Edge",
         "fontClass": "font-cv_haha",
-        "path": "CV Haha.zip",
+        "path": "CV_Haha.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -933,7 +933,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "meghna pradhan",
         "fontClass": "font-dev_nep",
-        "path": "Dev Nep.zip",
+        "path": "Dev_Nep.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -951,7 +951,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Manish Shrestha",
         "fontClass": "font-ganga_1",
-        "path": "Ganga 1.zip",
+        "path": "Ganga_1.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -978,7 +978,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Uttam Ranjitkar",
         "fontClass": "font-kalpanauttam_i",
-        "path": "KalpanaUttam i.zip",
+        "path": "KalpanaUttam_i.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -1086,7 +1086,7 @@ export const fontData: IFont[] = [
         "styles": 2,
         "designer": "Rakesh Maharjan",
         "fontClass": "font-old_nepali",
-        "path": "Old Nepali.zip",
+        "path": "Old_Nepali.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -1167,7 +1167,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "Raghunath Dhungel",
         "fontClass": "font-shangrila_textual",
-        "path": "Shangrila Textual.zip",
+        "path": "Shangrila_Textual.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },
@@ -1176,7 +1176,7 @@ export const fontData: IFont[] = [
         "styles": 1,
         "designer": "meghna pradhan",
         "fontClass": "font-shreenath_bold",
-        "path": "Shreenath Bold.zip",
+        "path": "Shreenath_Bold.zip",
         "source": "wikinepali",
         "encoding": "preeti"
     },

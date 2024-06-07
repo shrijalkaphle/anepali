@@ -16,31 +16,11 @@ export const FontList = ({ previewText, font, fontSize }: IFontList) => {
 
     const downloadFont = () => {
         const downloadLink = document.createElement("a");
-        downloadLink.href = './fonts/' + path;
+        downloadLink.href = 'https://assets.anepali.com/fonts/' + path;
         downloadLink.setAttribute("download", path);
         downloadLink.click();
     }
-
-    const updateStyles = (e: any) => {
-        // const currentBorderColor = e.target.style.borderColor
-        // if(currentBorderColor === 'transparent'){
-        //     e.target.style.borderColor = '#e5e5e5'
-        // }else{
-        //     e.target.style.borderColor = 'transparent'
-        // }
-
-        // if(!e.target.previousSibling) return
-
-        // const previousBorderColor = e.target.previousSibling.style.borderColor
-        // if(previousBorderColor === 'transparent'){
-        //     e.target.previousSibling.style.borderColor = '#e5e5e5'
-        // }else{
-        //     e.target.previousSibling.style.borderColor = 'transparent'
-        // }
-    }
-
     const convertToPreeti = (text: string) => {
-        // return convert_to_Preeti(text);
         return convertUnicodeToPreeti(text)
     }
 

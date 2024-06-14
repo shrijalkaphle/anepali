@@ -7,7 +7,6 @@ import translate from "./utils/devnagari";
 import { fontData } from "./data";
 import { IFont } from "./types/main";
 import { useSpeechRecognition } from "./hooks/useSpeechRecognition";
-import { Footer } from "./components/Footer";
 import { Loading } from "./components/Loading";
 
 import unidecode from 'unidecode';

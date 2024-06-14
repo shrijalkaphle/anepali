@@ -12,7 +12,7 @@ export interface IFontList {
 export const FontList = ({ previewText, font, fontSize }: IFontList) => {
     const { name, styles, designer, fontClass, path, encoding } = font
 
-    const placeholderText = 'काठमाडौंको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।'
+    const placeholderText = 'काठमाडौंको गल्लीहरुमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।'
 
     const downloadFont = () => {
         const downloadLink = document.createElement("a");

@@ -20,7 +20,9 @@ export const Footer = () => {
                 <div className="lg:flex justify-between lg:w-1/2 w-full mt-10 lg:mt-0">
                     <ul className="mt-10 lg:mt-0">
                         <li className="font-semibold">aNepali Services</li>
-                        <li className="my-3 text-neutral-800">Nepali Typography</li>
+                        <Link href="/"><li className="my-3 text-neutral-800">Nepali Typography</li></Link>
+                        <Link href="/unicode-to-preeti"><li className="my-3 text-neutral-800">Unicode to Preeti Converter</li></Link>
+
                         {/* <li className="my-3 text-neutral-600 flex items-center gap-x-2">
                             Nepali Typing Practice
                             <div className="rounded-full py-1 px-2 border border-neutral-200 flex items-center gap-x-1.5">

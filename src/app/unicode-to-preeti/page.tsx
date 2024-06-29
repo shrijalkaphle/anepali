@@ -99,7 +99,7 @@ export default function UnicodeToPreetiPage() {
                         <div className="px-4 py-3 border border-neutral-200 rounded-[10px] text-neutral-600 font-medium">Preeti Text</div>
                         {/* text area */}
                         <div className="w-full bg-neutral-50 rounded-lg h-[480px] mt-6">
-                            <textarea  className="w-full h-[395px] resize-none outline-none p-5 bg-transparent old_nepali text-[26px]" placeholder="बुटवलको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।" value={preetiText} readOnly></textarea>
+                            <textarea  className="w-full h-[395px] resize-none outline-none p-5 bg-transparent font-old_nepali text-[26px]" placeholder="बुटवलको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।" value={preetiText} readOnly></textarea>
                             <div className="p-4">
                                 <button className="text-sm px-3 py-2 rounded-[55px] bg-white font-medium flex items-center gap-x-1" onClick={() => navigator.clipboard.writeText(preetiText)}>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

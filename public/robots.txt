@@ -1,0 +1,14 @@
+# Disallow all web crawlers from accessing the /private directory
+User-agent: *
+Disallow: /assets/
+
+#Disallow NEXT generated
+User-agent: *
+Disallow: /_next/
+
+#Disallow NEXT generated
+User-agent: *
+Disallow: /wp-content/
+
+# Sitemap location
+Sitemap: http://www.anepali.com/sitemap.xml

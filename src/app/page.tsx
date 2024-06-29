@@ -110,12 +110,10 @@ export default function Home() {
       {/* beta release info */}
       <div className="container mt-[140px]">
         <div className="px-2 py-1 text-neutral-800 font-medium text-sm border border-neutral-200 rounded-lg w-fit">Beta Release</div>
-        <div className="mt-4">
-          <span className="font-semibold text-[40px] leading-[48px]">Explore and Download Nepali Fonts</span>
-          <p className="mt-5 text-neutral-600 lg:w-[455px]">
-            Search and download the best Nepali fonts for your next project. We’re working to bring you all the font selections for Nepali Language.
-          </p>
-        </div>
+        <h1 className="font-semibold text-[40px] leading-[48px] mt-4">Explore and Download Nepali Fonts</h1>
+        <p className="mt-5 text-neutral-600 lg:w-[455px]">
+          Search and download the best Nepali fonts for your next project. We’re working to bring you all the font selections for Nepali Language.
+        </p>
       </div>
 
       <div className="container lg:mt-[66px] mt-[40px]">
@@ -136,7 +134,7 @@ export default function Home() {
         <div className="mt-6">
           {
             fonts.map((font, index) => (
-              
+
               <div key={index} onMouseOver={() => handleMouseOver(index)} onMouseOut={handleMouseOut}
                 //@ts-ignore
                 className={`border-b border-neutral-200 hover:bg-neutral-100 hover:rounded-lg ${index == hoveredIndex || index == (hoveredIndex - 1) ? 'border-transparent' : ''}`}>

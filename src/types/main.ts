@@ -23,6 +23,14 @@ export interface IFilterComponent {
     setEncoding: (value: string) => void
 }
 
+export interface IFilterComponentv2 {
+    setFonts: (value: IFont[]) => void,
+    previewText: string
+    setPreviewText: (value: string) => void
+    fontSize: number
+    setFontSize: (value: number) => void
+}
+
 
 export interface IDropDown {
     dropdownValue: string[]

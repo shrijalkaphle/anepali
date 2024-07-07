@@ -1,15 +1,14 @@
 'use client';
-import { Navbar } from "./components/Navbar";
-import { FontList } from "./components/FontList";
-import { FilterComponent } from "./components/Filter";
+import { FontList } from "../components/FontList";
 import { useEffect, useState } from "react";
-import translate from "./utils/devnagari";
+import translate from "@/lib/devnagari";
 import { fontData } from "./data";
-import { IFont } from "./types/main";
-import { useSpeechRecognition } from "./hooks/useSpeechRecognition";
-import { Loading } from "./components/Loading";
+import { IFont } from "@/types/main";
+import { useSpeechRecognition } from "@/hooks/useSpeechRecognition";
+import { Loading } from "@/components/Loading";
 
 import unidecode from 'unidecode';
+import FilterComponentv2 from "@/components/FilterComponent";
 
 export default function Home() {
 
@@ -105,7 +104,6 @@ export default function Home() {
 
   return (
     <>
-      <Navbar fontSearch={fontSearchText} fontSearchChange={filterSearchChange} />
 
       {/* beta release info */}
       <div className="container mt-[140px]">
@@ -116,34 +114,20 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="container lg:mt-[66px] mt-[40px]">
-        <FilterComponent
-          enableVoiceInput={enableVoiceInput}
-          isListening={isListening}
-          previewText={previewText}
-          originalText={originalText}
-          previewTextChange={previewTextChange}
-          fontSize={fontSize}
-          setFontSize={setFontSize}
-          minimumStyles={minimumStyles}
-          setMinimumStyles={changeMinimumStyles}
-          hasRecongnitionSupport={hasRecongnitionSupport}
-          encoding={encoding}
-          setEncoding={changeEncoding}
-        />
-        <div className="mt-6">
-          {
-            fonts.map((font, index) => (
+      <FilterComponentv2 setFonts={setFonts} previewText={previewText} setPreviewText={setPreviewText} fontSize={fontSize} setFontSize={setFontSize} />
 
-              <div key={index} onMouseOver={() => handleMouseOver(index)} onMouseOut={handleMouseOut}
-                //@ts-ignore
-                className={`border-b border-neutral-200 hover:bg-neutral-100 hover:rounded-lg ${index == hoveredIndex || index == (hoveredIndex - 1) ? 'border-transparent' : ''}`}>
-                <FontList font={font} previewText={previewText} fontSize={fontSize} />
-              </div>
+      <div className="mt-6 container">
+        {
+          fonts.map((font, index) => (
 
-            ))
-          }
-        </div>
+            <div key={index} onMouseOver={() => handleMouseOver(index)} onMouseOut={handleMouseOut}
+              //@ts-ignore
+              className={`border-b border-neutral-200 hover:bg-neutral-100 hover:rounded-lg ${index == hoveredIndex || index == (hoveredIndex - 1) ? 'border-transparent' : ''}`}>
+              <FontList font={font} previewText={previewText} fontSize={fontSize} />
+            </div>
+
+          ))
+        }
       </div>
       <div className="container mt-20 my-10">
         {/* <div className="rounded-lg bg-neutral-50 h-[136px] flex items-center justify-center">

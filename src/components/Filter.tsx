@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react"
-import { IFilterComponent } from "../types/main"
+import { IFilterComponent } from "@/types/main"
 import { Dropdown } from "./Dropdown"
 import { FontWeightDropdown } from "./FontWeightDropdown"
 
@@ -66,7 +66,7 @@ export const FilterComponent = ({ enableVoiceInput, isListening, previewText, or
     }, [fontSize])
 
     return (
-        <>
+        <div className="">
             <div ref={previewRef}></div>
             <div className={`w-fit lg:flex items-center top-[84px] bg-white ${inView ? ' ' : 'fixed z-[9999]'}`}>
                 <div className="flex items-center bg-neutral-50 gap-x-1 border border-neutral-200 h-16 lg:rounded-r-none lg:rounded-l-xl rounded-t-xl py-3 xl:w-[784px] lg:w-[584px] w-full">
@@ -133,6 +133,6 @@ export const FilterComponent = ({ enableVoiceInput, isListening, previewText, or
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

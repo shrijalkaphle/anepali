@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { IDropDown } from "../types/main"
+import { IDropDown } from "@/types/main"
 
 export const FontWeightDropdown = ({dropdownValue, value, setValue} : IDropDown) => {
 

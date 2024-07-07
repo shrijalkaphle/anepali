@@ -1,4 +1,4 @@
-import { IFont } from "./types/main";
+import { IFont } from "@/types/main";
 
 export const fontData: IFont[] = [
     {

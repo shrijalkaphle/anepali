@@ -16,7 +16,7 @@
   }
 
   body {
-    @apply text-neutral-900;
+    @apply text-slate-900;
   }
 
   @keyframes wiggle {

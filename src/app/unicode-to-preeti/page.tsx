@@ -51,17 +51,17 @@ export default function UnicodeToPreetiPage() {
         <div className="container">
             <div className="mt-11">
                 <h1 className="font-semibold text-[40px] leading-[48px]">Unicode to Preeti <span className="bg-gradient-to-t from-[#D11233] to-[#FF4565] bg-clip-text text-transparent">Converter</span></h1>
-                <p className="mt-5 text-neutral-600 lg:w-[580px]">
+                <p className="mt-5 text-slate-600 lg:w-[580px]">
                     Convert your Nepali text from Unicode to Preeti encoding format. Be sure to try out the voice typing feature for easy typing
                 </p>
             </div>
 
             <div className="my-[60px] flex gap-x-2">
                 <div className="w-[570px]">
-                    <div className="px-4 py-3 border border-neutral-200 rounded-[10px] text-neutral-600 font-medium">Unicode Text</div>
+                    <div className="px-4 py-3 border border-slate-200 rounded-[10px] text-slate-600 font-medium">Unicode Text</div>
 
                     {/* text area */}
-                    <div className="w-full border rounded-lg border-neutral-200 h-[480px] mt-6 flex flex-col ">
+                    <div className="w-full border rounded-lg border-slate-200 h-[480px] mt-6 flex flex-col ">
 
                         <textarea className="w-full resize-none outline-none p-5 flex-grow text-[20px]" placeholder="बुटवलको गल्लीहरूमा एउटा चालकबिहीन ट्याक्सी दौडिरहेको छ।" value={unicodeText} onChange={onUnicodeChange}></textarea>
                         <div className="p-4 flex items-center gap-x-4">
@@ -83,9 +83,9 @@ export default function UnicodeToPreetiPage() {
                     </Link>
                 </div>
                 <div className="w-[570px]">
-                    <div className="px-4 py-3 border border-neutral-200 rounded-[10px] text-neutral-600 font-medium">Preeti Text</div>
+                    <div className="px-4 py-3 border border-slate-200 rounded-[10px] text-slate-600 font-medium">Preeti Text</div>
                     {/* text area */}
-                    <div className="w-full bg-neutral-50 rounded-lg h-[480px] mt-6">
+                    <div className="w-full bg-slate-50 rounded-lg h-[480px] mt-6">
                         <textarea className="w-full h-[395px] resize-none outline-none p-5 bg-transparent font-old_nepali text-[26px]" placeholder="a'6jnsf] uNnLx?df Pp6f rfnslaxLg 6\ofS;L bf}l8/x]sf] 5." value={preetiText} readOnly></textarea>
                         <div className="p-4">
                             <button className="text-sm px-3 py-2 rounded-[55px] bg-white font-medium flex items-center gap-x-1" onClick={() => navigator.clipboard.writeText(preetiText)}>

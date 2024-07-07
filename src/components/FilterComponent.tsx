@@ -157,16 +157,16 @@ function FilterComponentv2({ setFonts, previewText, setPreviewText, fontSize, se
                                                     <div className="p-1.5 rounded-full bg-gradient-to-t from-[#D11233] to-[#FF4565] z-[10] absolute" onClick={stopListening}>
                                                         <Image src="/assets/mic_active.svg" width={20} height={20} alt="filter" />
                                                     </div>
-                                                    <div className="bg-neutral-50 rounded-full animate-wiggle h-14 w-14 "></div>
+                                                    <div className="bg-slate-50 rounded-full animate-wiggle h-14 w-14 "></div>
                                                 </div>
                                                 :
-                                                <button className="p-1.5 rounded-full bg-white border-[8px] border-neutral-50" onClick={enableVoiceInput}>
+                                                <button className="p-1.5 rounded-full bg-white border-[8px] border-slate-50" onClick={enableVoiceInput}>
                                                     <Image src="/assets/mic.svg" width={20} height={20} alt="filter" />
                                                 </button>
                                         }
                                     </>
                                     :
-                                    <button className="p-1.5 rounded-full bg-white border-[8px] border-neutral-50" onClick={enableVoiceInput}>
+                                    <button className="p-1.5 rounded-full bg-white border-[8px] border-slate-50" onClick={enableVoiceInput}>
                                         <Image src="/assets/mic_disabled.svg" width={20} height={20} alt="filter" />
                                     </button>
                             }
@@ -177,18 +177,18 @@ function FilterComponentv2({ setFonts, previewText, setPreviewText, fontSize, se
                         </div>
                         <div className="flex border-t border-input lg:border-0">
                             <div className="p-3 h-16 lg:w-[196px] w-1/3 border-r border-input">
-                                <span className="block lg:text-[13px] text-neutral-600 mb-1 text-xs">Font Size</span>
+                                <span className="block lg:text-[13px] text-slate-600 mb-1 text-xs">Font Size</span>
                                 <div className="flex items-center gap-x-1">
                                     <Dropdown dropdownValue={availableFontSize} value={fontSize} setValue={setFontSize} isFont={true} />
                                     <input type="range" min="12" max="128" value={fontSize} onChange={(e) => setFontSize(parseInt(e.target.value))} className="w-[100px] rangeSlider" ref={rangeSlider} />
                                 </div>
                             </div>
                             <div className="border-r border-input p-3 lg:w-[110px] w-1/3 h-16">
-                                <span className="block lg:text-[13px] text-neutral-600 mb-1 text-xs">Encoding</span>
+                                <span className="block lg:text-[13px] text-slate-600 mb-1 text-xs">Encoding</span>
                                 <Dropdown dropdownValue={availableEncodingValue} value={encoding} setValue={encodingChange} />
                             </div>
                             <div className=" p-3 lg:w-[110px] h-16 w-1/3">
-                                <span className="block text-[13px] text-neutral-600 mb-1">Font Weight</span>
+                                <span className="block text-[13px] text-slate-600 mb-1">Font Weight</span>
                                 <FontWeightDropdown dropdownValue={availableFontWeight} value={minimumStyles} setValue={onMinimumStylesChange} />
                             </div>
                         </div>

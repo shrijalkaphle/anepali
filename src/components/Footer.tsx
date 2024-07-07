@@ -11,15 +11,15 @@ export const Footer = () => {
                 <div className="lg:flex justify-between lg:w-1/2 w-full mt-10 lg:mt-0">
                     <ul className="mt-10 lg:mt-0">
                         <li className="font-semibold">aNepali Services</li>
-                        <Link href="/"><li className="my-3 text-neutral-800">Nepali Typography</li></Link>
-                        <Link href="/unicode-to-preeti/"><li className="my-3 text-neutral-800">Unicode to Preeti Converter</li></Link>
-                        <Link href="/preeti-to-unicode/"><li className="my-3 text-neutral-800">Preeti to Unicode Converter</li></Link>
+                        <Link href="/"><li className="my-3 text-slate-800">Nepali Typography</li></Link>
+                        <Link href="/unicode-to-preeti/"><li className="my-3 text-slate-800">Unicode to Preeti Converter</li></Link>
+                        <Link href="/preeti-to-unicode/"><li className="my-3 text-slate-800">Preeti to Unicode Converter</li></Link>
                     </ul>
                     <ul className="mt-10 lg:mt-0">
                         <li className="font-semibold">aNepali</li>
-                        <li className="my-3 text-neutral-800">Blog articles</li>
-                        <li className="my-3 text-neutral-800">About</li>
-                        <li className="my-3 text-neutral-800">Contact us : <a href="mailto:info@anepali.com" className="text-blue-700">info@anepali.com</a></li>
+                        <li className="my-3 text-slate-800">Blog articles</li>
+                        <li className="my-3 text-slate-800">About</li>
+                        <li className="my-3 text-slate-800">Contact us : <a href="mailto:info@anepali.com" className="text-blue-700">info@anepali.com</a></li>
                     </ul>
                 </div>
             </div>

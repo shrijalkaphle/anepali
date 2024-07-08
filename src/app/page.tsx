@@ -18,19 +18,7 @@ export default function Home() {
 
   // filter font data
   const [fontSize, setFontSize] = useState<number>(40)
-
-  const filterSearchChange = (e: any) => {
-    const value = e.target.value
-    setFontSearchText(value);
-
-    if (!value) { setFonts(fontData) } else {
-      // filter fontData
-      const filteredFont = fontData.filter((font) => {
-        return font.name.toLowerCase().includes(fontSearchText.toLowerCase());
-      })
-      setFonts(filteredFont);
-    }
-  }
+  
 
   useEffect(() => {
     window.innerWidth >= 1280 ? setFontSize(40) : (window.innerWidth >= 1024 ? setFontSize(36) : setFontSize(22))
@@ -51,7 +39,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        
+        <link rel="canonical" href="https://anepali.com" />
       </Head>
       <div className="container mt-[140px]">
         <div className="px-2 py-1 text-foreground font-medium text-sm border border-input rounded-lg w-fit">Beta Release</div>

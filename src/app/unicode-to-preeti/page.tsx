@@ -5,7 +5,7 @@ import convertUnicodeToPreeti from "@/lib/preeti";
 import translate from "@/lib/devnagari";
 import Link from "next/link";
 import Image from "next/image";
-import { Head } from "next/document";
+import Head from "next/head";
 
 export default function UnicodeToPreetiPage() {
 

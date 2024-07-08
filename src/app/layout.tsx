@@ -4,7 +4,6 @@ import "@/styles/main.css";
 import { Footer } from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { Navbar } from "@/components/Navbar";
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,9 +36,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="canonical" href="https://anepali.com" />
-      </Head>
       <GoogleAnalytics />
       <body className={inter.className}>
         <Navbar />

@@ -25,8 +25,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/assets/favicon.png",
-
   },
+  alternates: {
+    canonical: "https://anepali.com",
+  }
 };
 
 export default function RootLayout({

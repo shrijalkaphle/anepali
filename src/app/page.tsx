@@ -3,14 +3,10 @@ import { FontList } from "../components/FontList";
 import { useEffect, useState } from "react";
 import { fontData } from "./data";
 import { IFont } from "@/types/main";
-import { Loading } from "@/components/Loading";
 import FilterComponentv2 from "@/components/FilterComponent";
-import Head from "next/head";
 
 export default function Home() {
-  const [pageLoading, setPageLoading] = useState<boolean>(true)
   const [previewText, setPreviewText] = useState<string>("");
-  const [fontSearchText, setFontSearchText] = useState<string>("");
 
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
@@ -22,7 +18,6 @@ export default function Home() {
 
   useEffect(() => {
     window.innerWidth >= 1280 ? setFontSize(40) : (window.innerWidth >= 1024 ? setFontSize(36) : setFontSize(22))
-    setPageLoading(false)
   }, [])
 
   const handleMouseOver = (index: number) => {
@@ -33,14 +28,8 @@ export default function Home() {
     setHoveredIndex(null);
   };
 
-
-  if (pageLoading) return <Loading />
-
   return (
     <>
-      <Head>
-        <link rel="canonical" href="https://anepali.com" />
-      </Head>
       <div className="container mt-[140px]">
         <div className="px-2 py-1 text-foreground font-medium text-sm border border-input rounded-lg w-fit">Beta Release</div>
         <h1 className="font-semibold text-[40px] leading-[48px] mt-4">Explore and Download Nepali Fonts</h1>

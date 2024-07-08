@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Preeti to Unicode - aNepali",
         description: "Convert Preeti to Unicode text in real time. Type in Roman Nepali, or paste Preeti text and copy the Unicode result easily at anepali.com.",
-        url: "https://anepali.com/Unicode-to-unicode/",
+        url: "https://anepali.com/preeti-to-unicode/",
         siteName: "aNepali",
         images: [
             {

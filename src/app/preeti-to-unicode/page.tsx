@@ -31,6 +31,7 @@ export default function UnicodeToPreetiPage() {
                 <title>Preeti to Unicode - aNepali</title>
                 <meta name="title" content="Preeti to Unicode - aNepali" />
                 <meta name="description" content="Convert your Nepali text from Preeti to Unicode encoding format." />
+                <link rel="canonical" href="https://anepali.com/preeti-to-unicode/" />
             </Head>
             <div className="mt-11">
                 <h1 className="font-semibold text-[40px] leading-[48px]">Preeti to Unicode <span className="bg-gradient-to-t from-[#D11233] to-[#FF4565] bg-clip-text text-transparent">Converter</span></h1>

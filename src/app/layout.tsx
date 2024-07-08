@@ -4,6 +4,7 @@ import "@/styles/main.css";
 import { Footer } from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { Navbar } from "@/components/Navbar";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Download Nepali Fonts - aNepali",
     description: "Explore and Download Free Nepali Fonts. Use Voice typing, Search and filter fonts from a list of over 130 nepali fonts.",
-    url: "https://anepali.com/",
+    url: "https://anepali.com",
     siteName: "aNepali",
     images: [
       {
@@ -36,6 +37,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="canonical" href="https://anepali.com" />
+      </Head>
       <GoogleAnalytics />
       <body className={inter.className}>
         <Navbar />

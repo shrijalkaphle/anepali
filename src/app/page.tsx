@@ -5,6 +5,7 @@ import { fontData } from "./data";
 import { IFont } from "@/types/main";
 import { Loading } from "@/components/Loading";
 import FilterComponentv2 from "@/components/FilterComponent";
+import Head from "next/head";
 
 export default function Home() {
   const [pageLoading, setPageLoading] = useState<boolean>(true)
@@ -49,8 +50,9 @@ export default function Home() {
 
   return (
     <>
-
-      {/* beta release info */}
+      <Head>
+        
+      </Head>
       <div className="container mt-[140px]">
         <div className="px-2 py-1 text-foreground font-medium text-sm border border-input rounded-lg w-fit">Beta Release</div>
         <h1 className="font-semibold text-[40px] leading-[48px] mt-4">Explore and Download Nepali Fonts</h1>

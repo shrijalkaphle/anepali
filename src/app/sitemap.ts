@@ -9,7 +9,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 1
         },
         {
-            url: 'https://anepali.com/unicode-to-preeti',
+            url: 'https://anepali.com/unicode-to-preeti/',
+            lastModified: new Date(),
+            changeFrequency: 'weekly',
+            priority: 0.8
+        },
+        {
+            url: 'https://anepali.com/preeti-to-unicode/',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.8

@@ -53,7 +53,7 @@ export default function UnicodeToPreetiPage() {
             <Head>
                 <title>Unicode to Preeti - aNepali</title>
                 <meta name="title" content="Unicode to Preeti - aNepali" />
-                <meta name="description" content="Convert your Nepali text from Unicode to Preeti encoding format. Be sure to try out the voice typing feature for easy typing" />
+                <meta name="description" content="Convert Unicode to Preeti text in real time. Use voice typing, type in Roman Nepali, or paste Unicode text and copy the Preeti result easily at anepali.com." />
                 <link rel="canonical" href="https://anepali.com/unicode-to-preeti/" />
             </Head>
             <div className="mt-11">

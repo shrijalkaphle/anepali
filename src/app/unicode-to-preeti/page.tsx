@@ -5,6 +5,7 @@ import convertUnicodeToPreeti from "@/lib/preeti";
 import translate from "@/lib/devnagari";
 import Link from "next/link";
 import Image from "next/image";
+import { Head } from "next/document";
 
 export default function UnicodeToPreetiPage() {
 
@@ -49,6 +50,11 @@ export default function UnicodeToPreetiPage() {
 
     return (
         <div className="container">
+            <Head>
+                <title>Unicode to Preeti - aNepali</title>
+                <meta name="title" content="Unicode to Preeti - aNepali" />
+                <meta name="description" content="Convert your Nepali text from Unicode to Preeti encoding format. Be sure to try out the voice typing feature for easy typing" />
+            </Head>
             <div className="mt-11">
                 <h1 className="font-semibold text-[40px] leading-[48px]">Unicode to Preeti <span className="bg-gradient-to-t from-[#D11233] to-[#FF4565] bg-clip-text text-transparent">Converter</span></h1>
                 <p className="mt-5 text-slate-600 lg:w-[580px]">

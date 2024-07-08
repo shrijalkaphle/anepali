@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import convertUnicodeToPreeti from "@/lib/preeti";
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 
 export default function UnicodeToPreetiPage() {
 
@@ -26,10 +27,15 @@ export default function UnicodeToPreetiPage() {
 
     return (
         <div className="container">
+            <Head>
+                <title>Preeti to Unicode - aNepali</title>
+                <meta name="title" content="Preeti to Unicode - aNepali" />
+                <meta name="description" content="Convert your Nepali text from Preeti to Unicode encoding format." />
+            </Head>
             <div className="mt-11">
                 <h1 className="font-semibold text-[40px] leading-[48px]">Preeti to Unicode <span className="bg-gradient-to-t from-[#D11233] to-[#FF4565] bg-clip-text text-transparent">Converter</span></h1>
                 <p className="mt-5 text-slate-600 lg:w-[580px]">
-                    Convert your Nepali text from Preeti to Unicode encoding format. Be sure to try out the voice typing feature for easy typing
+                    Convert your Nepali text from Preeti to Unicode encoding format.
                 </p>
             </div>
 

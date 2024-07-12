@@ -30,7 +30,7 @@ function PreetiToUnicodeConverter() {
                 {/* text area */}
                 <div className="w-full border rounded-lg border-slate-200 h-[480px] mt-6 flex flex-col ">
 
-                    <textarea className="w-full resize-none outline-none p-5 flex-grow font-old_nepali text-[26px]" placeholder="a'6jnsf] un\nLx¿df Pp6f rfnslaxLg 6\ofS;L bf}l8/x]sf] 5." value={preetiText} onChange={onPreetiChange}></textarea>
+                    <textarea className="w-full resize-none outline-none p-5 flex-grow font-old_nepali text-[26px] bg-transparent" placeholder="a'6jnsf] un\nLx¿df Pp6f rfnslaxLg 6\ofS;L bf}l8/x]sf] 5." value={preetiText} onChange={onPreetiChange}></textarea>
                 </div>
             </div>
             <div className="p-2.5">

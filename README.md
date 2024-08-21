@@ -28,7 +28,7 @@ After downloading a font, you can install it on your system and use it in your p
 
 ### Contribution
 
-We welcome contributions! If you have a Nepali font that you'd like to share with the community, feel free to mail us the font at [Shrijal Kaphle](mainto:info@shrijalkaphle.com.np?subject=Add%20New%20Font)
+We welcome contributions! If you have a Nepali font that you'd like to share with the community, feel free to mail us the font at [Shrijal Kaphle](mailto:info@shrijalkaphle.com.np)
 
 
 ### Support

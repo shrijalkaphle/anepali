@@ -28,8 +28,8 @@ After downloading a font, you can install it on your system and use it in your p
 
 ### Contribution
 
-We welcome contributions! If you have a Nepali font that you'd like to share with the community, feel free to mail us the font at [Shrijal Kaphle](mailto:info@shrijalkaphle.com.np)
+We welcome contributions! If you have a Nepali font that you'd like to share with the community, feel free to mail us the font at info@shrijalkaphle.com.np
 
 
 ### Support
-For any issues, questions, or suggestions, feel free to open an issue in this repository or contact us at support@anepali.com.
+For any issues, questions, or suggestions, feel free to open an issue in this repository or contact us at info@shrijalkaphle.com.np.
